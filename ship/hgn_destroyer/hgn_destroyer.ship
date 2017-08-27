@@ -167,19 +167,6 @@ StartShipHardPointConfig(NewShipType, "TurretBack", "Weapon_TurretBack", "System
 StartShipHardPointConfig(NewShipType, "TurretBottomBack", "Weapon_TurretBottomBack", "System", "Innate", "Damageable", "hgn_ioncannon", "", "", "", "", "", "", "", "")
 StartShipHardPointConfig(NewShipType, "TurretBottomFront", "Weapon_TurretBottomFront", "System", "Innate", "Damageable", "hgn_coilcannonx3", "", "", "", "", "", "", "", "")
 
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T2", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T3", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T4", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T5", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T7", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T8", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T9", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T10", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T11", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T12", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T13", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T14", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-
 --Hardpoints T1, T6, T15 and T16 have been removed to reduce CPU load
 
 StartShipHardPointConfig(NewShipType,"mGAT1","Weapon_FlakTop","Weapon","Innate","Indestructible","hgn_gatlinggunsmall","","","","","","","","")

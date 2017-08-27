@@ -2137,8 +2137,6 @@ Vgr_Drone = Vgr_Scout
 Hgn_Drone = Hgn_Probe
 hgn_pulsarplatform = Hgn_IonTurret
 vgr_weaponplatform_Plasma = Vgr_WeaponPlatform_gun
---SUBSYSTEMS
-directionalthruster = Icon_Subsystem_Engine
 --Hiigaran
 hgn_battleshipminedropper = Icon_Subsystem_TorpedoLauncher
 hgn_booster = Icon_Subsystem_Engine

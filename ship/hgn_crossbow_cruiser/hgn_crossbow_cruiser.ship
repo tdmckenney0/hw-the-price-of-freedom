@@ -173,17 +173,6 @@ StartShipHardPointConfig(NewShipType,"Calibration5","Hardpoint_Turret_Bottom","S
 StartShipHardPointConfig(NewShipType,"Calibration6","Hardpoint_DCT_Left","System","Innate","Damageable","hgn_ioncannon","","","","","","","","");
 StartShipHardPointConfig(NewShipType,"Calibration7","Hardpoint_DCT_Right","System","Innate","Damageable","hgn_ioncannon","","","","","","","","");
 
---Thrusters
-
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T1", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T2", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T3", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T4", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T5", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T6", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T7", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_T8", "System", "Innate", "Damageable", "DirectionalThruster", "", "", "", "", "", "", "", "")
-
 addShield(NewShipType,"EMP",400,12)
 NewShipType.battleScarMaxTriBase = 75
 NewShipType.battleScarMaxTriInc = 100

@@ -172,14 +172,6 @@ StartShipHardPointConfig(NewShipType, "Side_turret2", "Weapon_Turret_side2", "Sy
 StartShipHardPointConfig(NewShipType, "Missile_turret1", "Hardpoint_Turret_front1", "System", "Innate", "Damageable", "vgr_pmortarfrigatebottom", "", "", "", "", "", "", "", "")
 StartShipHardPointConfig(NewShipType, "Missile_turret2", "Hardpoint_Turret_front2", "System", "Innate", "Damageable", "vgr_pmortarfrigatebottom", "", "", "", "", "", "", "", "")
 
---Thrusters
-
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_TFront1", "System", "Innate", "Indestructible", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_TLeft1", "System", "Innate", "Indestructible", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_TRight1", "System", "Innate", "Indestructible", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_TTop1", "System", "Innate", "Indestructible", "DirectionalThruster", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Thruster", "Hardpoint_TBot1", "System", "Innate", "Indestructible", "DirectionalThruster", "", "", "", "", "", "", "", "")
-
 SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg03", 1, 0.75, 0, 0, 0, 50, 0, 0, 0, 200, 0, 0, 0, 50, 0, 0, 0, 50)
 SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg02", 1, 0.05, 30, -20, 200, 25, 300, 150, 85, 50, 0, 0, 0, 85, 0, 0, 0, 50)
 SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg04", 1, 0.05, 50, 40, -150, 50, 65, 25, 5, 25, 0, 0, 0, 95, 0, 0, 0, 50)
