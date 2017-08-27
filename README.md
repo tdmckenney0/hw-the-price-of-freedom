@@ -1,13 +1,13 @@
-# Slipstream: The Price of Freedom
+# The Price of Freedom
 
-A mod for Homeworld 2 Classic. Set in the Slipstream universe.
+A mod for Homeworld 2 Classic based on the gameplay of _Slipstream: The Price of Freedom_ 
 
 Written by:
-- Tanner Mckenney (TheMadScienceGuy, SRI-Sajuuk)
+- Tanner Mckenney
 
-With help from:
-- Matthew Collins (Rising Ruin, Coldstar, Aquemenon)
-- Erik Mann (HisDivineShadow)
+## Story
+
+15 years after 
 
 ## Tools
 
