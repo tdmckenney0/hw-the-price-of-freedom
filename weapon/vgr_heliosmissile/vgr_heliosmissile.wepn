@@ -1,4 +1,4 @@
-StartWeaponConfig(NewWeaponType,"Fixed","Missile","vgr_lrct","Normal",120,9000,0,0,0,0,1,0,0,30,0,0,0,0,360,360,0.1,"Normal",0,0,0)
+StartWeaponConfig(NewWeaponType,"Fixed","Missile","vgr_smallmissile","Normal",120,9000,0,0,0,0,1,0,0,30,0,0,0,0,360,360,0.1,"Normal",0,0,0)
 
 AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",3500,5000,"")
 AddWeaponResult(NewWeaponType,"Hit","Push","Target",10,10,"")
