@@ -2,12 +2,11 @@
 
 A mod for Homeworld 2 Classic based on the gameplay of _Slipstream: The Price of Freedom_ 
 
-Written by:
-- Tanner Mckenney
+Written by: Tanner Mckenney
 
 ## Story
 
-15 years after 
+15 years after the Hiigarans pushed the Vaygr out, the inner rim worlds have re-armed. With the threat of a Vaygr resurgance looming, tight strike groups have been formed to counter the Vaygr's combat efficiency.  
 
 ## Tools
 

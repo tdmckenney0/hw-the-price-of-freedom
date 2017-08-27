@@ -3,7 +3,7 @@ playedBin = {}
 function Play(Music)
 
 	if Music == nil then
-		Subtitle_Message("Mac OS X Users: We're sorry, but Homeworld 2 will not allow the advanced game options on your machine. Default Start fleet & Shuffle music Enabled.", 10)
+		Subtitle_Message("Music Error: Default Start fleet & Shuffle music Enabled.", 10)
 		ShuffleAll()
 				
 	elseif Music == "shuffle" then
