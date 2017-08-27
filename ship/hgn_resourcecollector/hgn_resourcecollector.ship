@@ -5,7 +5,7 @@
 --
 NewShipType = StartShipConfig()
 NewShipType.displayedName = "$1532"
-NewShipType.sobDescription = "UNCG Utility"
+NewShipType.sobDescription = "Utility"
 NewShipType.maxhealth = 3500
 NewShipType.regentime = 0
 NewShipType.minRegenTime = 0

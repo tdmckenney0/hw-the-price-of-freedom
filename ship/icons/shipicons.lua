@@ -2165,7 +2165,7 @@ hgn_pulsarplatform = Hgn_IonTurret
 vgr_weaponplatform_Plasma = Vgr_WeaponPlatform_gun
 --SUBSYSTEMS
 directionalthruster = Icon_Subsystem_Engine
---UNCG
+--Hiigaran
 hgn_battleshipminedropper = Icon_Subsystem_TorpedoLauncher
 hgn_booster = Icon_Subsystem_Engine
 hgn_c_module_build = Icon_Subsystem_ResearchAdvanced
@@ -2188,7 +2188,7 @@ hgn_ms_module_build = Icon_Subsystem_ResearchAdvanced
 hgn_plasmabatteryx6 = Icon_Subsystem_IonTurret
 hgn_railgun = Icon_Subsystem_IonTurret
 hgn_smallionturret = Icon_Subsystem_IonTurret
---DSCG
+--Vaygr
 vgr_dreadcannon = Icon_Subsystem_IonTurret
 vgr_flakcannon = Icon_Subsystem_HeavyCannonTurrets
 vgr_flakturret = Icon_Subsystem_HeavyCannonTurrets

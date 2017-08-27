@@ -4,8 +4,8 @@
 -- on error send source file (compiled lua) and this outputfile to Age2uN@gmx.net
 --
 NewShipType = StartShipConfig()
-NewShipType.displayedName = "Viper"
-NewShipType.sobDescription = "UNCG Standard Corvette"
+NewShipType.displayedName = "$1506"
+NewShipType.sobDescription = "$1507"
 NewShipType.maxhealth = 7500
 NewShipType.regentime = 0
 NewShipType.minRegenTime = 0

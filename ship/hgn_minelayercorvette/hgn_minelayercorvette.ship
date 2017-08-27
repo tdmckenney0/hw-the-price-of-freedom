@@ -5,7 +5,7 @@
 --
 NewShipType = StartShipConfig()
 NewShipType.displayedName = "Dragon"
-NewShipType.sobDescription = "UNCG Bomber Corvette"
+NewShipType.sobDescription = "Bomber Corvette"
 NewShipType.maxhealth = 8500
 NewShipType.regentime = 0
 NewShipType.minRegenTime = 0

@@ -8,7 +8,7 @@ buildFamily =
     {
         name = "Fighter_Hgn", },
 	{
-        name = "Drone_uncg", },
+        name = "Drone_Hgn", },
     {
         name = "Corvette_Hgn", },
     {
@@ -36,7 +36,7 @@ buildFamily =
     {
         name = "Fighter_Vgr", },
 	{
-        name = "Drone_Dol", },
+        name = "Drone_Vgr", },
     {
         name = "Corvette_Vgr", },
     {

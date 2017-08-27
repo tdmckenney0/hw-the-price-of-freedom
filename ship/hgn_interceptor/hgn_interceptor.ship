@@ -5,7 +5,7 @@
 --
 NewShipType = StartShipConfig()
 NewShipType.displayedName = "Hornet"
-NewShipType.sobDescription = "UNCG Interceptor\nUnmanned Fighter"
+NewShipType.sobDescription = "Interceptor\nUnmanned Fighter"
 NewShipType.maxhealth = 3500
 NewShipType.regentime = 0
 NewShipType.minRegenTime = 0

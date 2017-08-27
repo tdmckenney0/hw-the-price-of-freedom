@@ -1,6 +1,6 @@
 NewShipType = StartShipConfig()
 NewShipType.displayedName = "Crossbow"
-NewShipType.sobDescription = "UNCG Light Strike Cruiser"
+NewShipType.sobDescription = "Light Strike Cruiser"
 NewShipType.maxhealth = 600000
 NewShipType.regentime = 850
 NewShipType.minRegenTime = 150

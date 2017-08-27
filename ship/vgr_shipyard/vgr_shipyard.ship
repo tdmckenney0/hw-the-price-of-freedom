@@ -4,7 +4,7 @@
 -- On error(s), send source (compiled) file to 4E534B@gmail.com
 
 NewShipType=StartShipConfig()
-NewShipType.displayedName="DSCG Mobile Factory"
+NewShipType.displayedName="Mobile Factory"
 NewShipType.sobDescription ="Kaiser Class\nSuper Factory"
 NewShipType.maxhealth =1000000
 NewShipType.regentime =2000
@@ -142,7 +142,7 @@ addAbility(NewShipType, "WaypointMove")
 addAbility(NewShipType,"HyperSpaceCommand",1,0,250,250,0,3.141592653)
 addAbility(NewShipType, "CanAttack", 1, 1, 0, 0, 0.35, 1, "munition, Fighter, Corvette, Frigate, SmallCapitalShip, BigCapitalShip, Utility", "JustShoot")
 addAbility(NewShipType, "GuardCommand", 1, 3000, 1000)
-addAbility(NewShipType, "CanBuildShips", 1, "Drone_DOL, Fighter_Vgr, Corvette_Vgr, Frigate_Vgr, SuperCap_Vgr, Flagship_Vgr, Utility_Vgr, SubSystem_Vgr, SubSystemLarge_Vgr, Platform_Vgr, Shipyard_Vgr, Battlecruiser_Vgr, Probe_Vgr", "Utility, Fighter, Corvette, Frigate, Platform, SubSystemModule, SubSystemSensors, Capital")
+addAbility(NewShipType, "CanBuildShips", 1, "Drone_Vgr, Fighter_Vgr, Corvette_Vgr, Frigate_Vgr, SuperCap_Vgr, Flagship_Vgr, Utility_Vgr, SubSystem_Vgr, SubSystemLarge_Vgr, Platform_Vgr, Shipyard_Vgr, Battlecruiser_Vgr, Probe_Vgr", "Utility, Fighter, Corvette, Frigate, Platform, SubSystemModule, SubSystemSensors, Capital")
 addAbility(NewShipType, "CanBeCaptured", 300, 0.1)
 addAbility(NewShipType, "CanBeRepaired")
 addAbility(NewShipType, "MinelayerAbility",1,3.5)

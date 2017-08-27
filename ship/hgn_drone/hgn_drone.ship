@@ -5,7 +5,7 @@
 --
 NewShipType = StartShipConfig()
 NewShipType.displayedName = "Drone"
-NewShipType.sobDescription = "UNCG Drone\nUnManned Fighter"
+NewShipType.sobDescription = "Drone\nUnManned Fighter"
 NewShipType.maxhealth = 3000
 NewShipType.regentime = 0
 NewShipType.minRegenTime = 0
@@ -68,7 +68,7 @@ NewShipType.specialTurnRightManeuver = "NinetyDegRightTurn, None, None"
 NewShipType.testManeuver1 = "RollCW"
 NewShipType.testManeuver2 = "RollCCW"
 NewShipType.testManeuver3 = "Loop"
-NewShipType.BuildFamily = "drone_uncg"
+NewShipType.BuildFamily = "Drone_Hgn"
 NewShipType.AttackFamily = "Fighter"
 NewShipType.DockFamily = "Fighter"
 NewShipType.AvoidanceFamily = "Strikecraft"

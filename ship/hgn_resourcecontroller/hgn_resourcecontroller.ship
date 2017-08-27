@@ -1,6 +1,6 @@
 NewShipType = StartShipConfig()
 NewShipType.displayedName = "Mobile Refinery"
-NewShipType.sobDescription = "UNCG Utility"
+NewShipType.sobDescription = "Utility"
 NewShipType.maxhealth = 50000
 NewShipType.regentime = 850
 NewShipType.minRegenTime = 150

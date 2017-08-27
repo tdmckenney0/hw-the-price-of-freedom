@@ -5,7 +5,7 @@
 --
 NewShipType = StartShipConfig()
 NewShipType.displayedName = "Python"
-NewShipType.sobDescription = "UNCG Laser Corvette"
+NewShipType.sobDescription = "Laser Corvette"
 NewShipType.maxhealth = 2250
 NewShipType.regentime = 0
 NewShipType.minRegenTime = 0

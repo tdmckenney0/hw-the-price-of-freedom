@@ -5,7 +5,7 @@
 --
 NewShipType = StartShipConfig()
 NewShipType.displayedName = "Chengdu"
-NewShipType.sobDescription = "DSCG Fighter\nUnmanned Fighter"
+NewShipType.sobDescription = "Fighter\nUnmanned Fighter"
 NewShipType.maxhealth = 3550
 NewShipType.regentime = 0
 NewShipType.minRegenTime = 0
