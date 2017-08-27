@@ -7,6 +7,7 @@
 NewShipType = StartMissileConfig()
 NewShipType.displayedName="$1650"
 NewShipType.sobDescription="$1651"
+NewShipType.TOIcon="Jack"
 NewShipType.TOScale=1
 NewShipType.TODistanceFade0=50
 NewShipType.TODistanceDisappear0=100
@@ -44,9 +45,9 @@ NewShipType.launchTime=0.5
 NewShipType.detectionDistance=1000
 NewShipType.sobDieTime=0.5
 NewShipType.density=1
-NewShipType.thrusterMaxSpeed=500
-NewShipType.mainEngineMaxSpeed=500
-NewShipType.rotationMaxSpeed=190
+NewShipType.thrusterMaxSpeed=1000
+NewShipType.mainEngineMaxSpeed=1000
+NewShipType.rotationMaxSpeed=500
 NewShipType.thrusterAccelTime=2
 NewShipType.thrusterBrakeTime=2
 NewShipType.mainEngineAccelTime=2
@@ -79,7 +80,7 @@ NewShipType.DisplayFamily="Munition"
 NewShipType.AutoFormationFamily="Fighter"
 NewShipType.ArmourFamily="MineArmour"
 LoadHODFile(NewShipType,1);
-setEngineTrail(NewShipType,0,25,"missile_ribbon.tga",5.2,0.5,0.025,8);
+setEngineTrail(NewShipType,0,15,"trail_ribbon.tga",0.2,0.5,0.025,8);
 setEngineBurn(NewShipType,15,0.5,1,15,0,0.7,0.1,25);
 loadShipPatchList(NewShipType,"data:sound/sfx/ship/vaygr/NonMilitary/Engines/"
                              ,0,"VMissleEng");

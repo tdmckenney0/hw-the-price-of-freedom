@@ -1765,32 +1765,6 @@ Icon_Subsystem_IonTurret = {
     stretchOnDraw = 1,
   },
 }
-Icon_Subsystem_HeavyCannonTurrets = {
-  LargeIcon = {
-    texture = "DATA:\\Ship\\Icons\\icon_subsystem.mres",
-    textureUV_TL = {
-      192,
-      160,
-    },
-    textureUV_WH = {
-      64,
-      32,
-    },
-    stretchOnDraw = 1,
-  },
-  SmallIcon = {
-    texture = "DATA:\\Ship\\Icons\\Taskbar\\Vgr_HeavyCannonTurrets.tga",
-    textureUV_TL = {
-      0,
-      0,
-    },
-    textureUV_WH = {
-      64,
-      48,
-    },
-    stretchOnDraw = 1,
-  },
-}
 Hgn_Tanker_cannon = Icon_Subsystem_IonTurret
 Hgn_Tanker_flak   = Icon_Subsystem_IonTurret
 Hgn_Tanker_pulsar = Icon_Subsystem_IonTurret
@@ -2170,11 +2144,11 @@ hgn_battleshipminedropper = Icon_Subsystem_TorpedoLauncher
 hgn_booster = Icon_Subsystem_Engine
 hgn_c_module_build = Icon_Subsystem_ResearchAdvanced
 hgn_coilcannonx3 = Icon_Subsystem_IonTurret
-hgn_droneturret = Icon_Subsystem_HeavyCannonTurrets
-hgn_gatlinggun =  Icon_Subsystem_HeavyCannonTurrets
-hgn_gatlinggunleft =  Icon_Subsystem_HeavyCannonTurrets
-hgn_gatlinggunright =  Icon_Subsystem_HeavyCannonTurrets
-hgn_gatlinggunsmall =  Icon_Subsystem_HeavyCannonTurrets
+hgn_droneturret = Icon_Subsystem_Engine
+hgn_gatlinggun =  Icon_Subsystem_Engine
+hgn_gatlinggunleft =  Icon_Subsystem_Engine
+hgn_gatlinggunright =  Icon_Subsystem_Engine
+hgn_gatlinggunsmall =  Icon_Subsystem_Engine
 hgn_ioncannonx2 = Icon_Subsystem_IonTurret
 hgn_ioncannonx3 = Icon_Subsystem_IonTurret
 hgn_lasersmall = Icon_Subsystem_IonTurret
@@ -2183,18 +2157,18 @@ hgn_missileturretleft = Icon_Subsystem_TorpedoLauncher
 hgn_missileturretright = Icon_Subsystem_TorpedoLauncher
 hgn_mount = Icon_Subsystem_PlatformControl
 hgn_mount_large = Icon_Subsystem_PlatformControl
-hgn_mountedflak = Icon_Subsystem_HeavyCannonTurrets
+hgn_mountedflak = Icon_Subsystem_Engine
 hgn_ms_module_build = Icon_Subsystem_ResearchAdvanced
 hgn_plasmabatteryx6 = Icon_Subsystem_IonTurret
 hgn_railgun = Icon_Subsystem_IonTurret
 hgn_smallionturret = Icon_Subsystem_IonTurret
 --Vaygr
 vgr_dreadcannon = Icon_Subsystem_IonTurret
-vgr_flakcannon = Icon_Subsystem_HeavyCannonTurrets
-vgr_flakturret = Icon_Subsystem_HeavyCannonTurrets
-vgr_flakturretleft = Icon_Subsystem_HeavyCannonTurrets
-vgr_flakturretright = Icon_Subsystem_HeavyCannonTurrets
-vgr_gunmount = Icon_Subsystem_HeavyCannonTurrets
+vgr_flakcannon = Icon_Subsystem_Engine
+vgr_flakturret = Icon_Subsystem_Engine
+vgr_flakturretleft = Icon_Subsystem_Engine
+vgr_flakturretright = Icon_Subsystem_Engine
+vgr_gunmount = Icon_Subsystem_Engine
 vgr_ionbeamturret = Icon_Subsystem_IonTurret
 vgr_ionbeamturretx3 = Icon_Subsystem_IonTurret
 vgr_mediumplasmadriver = Icon_Subsystem_IonTurret
@@ -2202,8 +2176,8 @@ vgr_missilebay = Icon_Subsystem_TorpedoLauncher
 vgr_missileturret = Icon_Subsystem_TorpedoLauncher
 vgr_mount = Icon_Subsystem_PlatformControl
 vgr_plasmabatteryx4 = Icon_Subsystem_IonTurret
-vgr_pmortarfrigate = Icon_Subsystem_HeavyCannonTurrets
-vgr_pmortarfrigateleft = Icon_Subsystem_HeavyCannonTurrets
-vgr_pmortarfrigateright = Icon_Subsystem_HeavyCannonTurrets
-vgr_pmortarfrigatebottom = Icon_Subsystem_HeavyCannonTurrets
+vgr_pmortarfrigate = Icon_Subsystem_Engine
+vgr_pmortarfrigateleft = Icon_Subsystem_Engine
+vgr_pmortarfrigateright = Icon_Subsystem_Engine
+vgr_pmortarfrigatebottom = Icon_Subsystem_Engine
 vgr_railgun = Icon_Subsystem_IonTurret

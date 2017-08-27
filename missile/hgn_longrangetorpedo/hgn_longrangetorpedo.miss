@@ -1,6 +1,7 @@
 NewShipType = StartMissileConfig()
 NewShipType.displayedName = "$1579"
 NewShipType.sobDescription = "$1580"
+NewShipType.TOIcon="Jack"
 NewShipType.TOScale = 1
 NewShipType.TODistanceFade0 = 7000
 NewShipType.TODistanceDisappear0 = 5000
@@ -34,9 +35,9 @@ NewShipType.launchTime = 0
 NewShipType.detectionDistance = 1000
 NewShipType.sobDieTime = 0.5
 NewShipType.density = 1
-NewShipType.thrusterMaxSpeed = 450
-NewShipType.mainEngineMaxSpeed = 450
-NewShipType.rotationMaxSpeed = 180
+NewShipType.thrusterMaxSpeed = 1000
+NewShipType.mainEngineMaxSpeed = 1000
+NewShipType.rotationMaxSpeed = 500
 NewShipType.thrusterAccelTime = 2
 NewShipType.thrusterBrakeTime = 2
 NewShipType.mainEngineAccelTime = 2
@@ -69,7 +70,7 @@ NewShipType.DisplayFamily = "Munition"
 NewShipType.AutoFormationFamily = "Fighter"
 NewShipType.ArmourFamily = "MineArmour"
 LoadHODFile(NewShipType,1);
-setEngineTrail(NewShipType,0,15,"missile_ribbon.tga",5.2,0.5,0.025,8);
+setEngineTrail(NewShipType,0,5,"trail_ribbon.tga",0.2,0.5,0.025,8);
 setEngineBurn(NewShipType,15,0.5,1,15,0,0.7,0.1,25);
 loadShipPatchList(NewShipType,"data:sound/sfx/ship/hiigaran/NonMilitary/Engines/"
                              ,0,"HTorpedoEng");

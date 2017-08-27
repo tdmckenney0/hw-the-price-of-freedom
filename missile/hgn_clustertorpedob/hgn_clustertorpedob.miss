@@ -45,9 +45,9 @@ NewShipType.detectionDistance=0
 NewShipType.proximityDetonationDist=85
 NewShipType.sobDieTime=0.5
 NewShipType.density=1
-NewShipType.thrusterMaxSpeed=600
-NewShipType.mainEngineMaxSpeed=600
-NewShipType.rotationMaxSpeed=425
+NewShipType.thrusterMaxSpeed=1200
+NewShipType.mainEngineMaxSpeed=1200
+NewShipType.rotationMaxSpeed=600
 NewShipType.thrusterAccelTime=0.8
 NewShipType.thrusterBrakeTime=0.5
 NewShipType.mainEngineAccelTime=0.8
@@ -80,7 +80,7 @@ NewShipType.DisplayFamily="Munition"
 NewShipType.AutoFormationFamily="Fighter"
 NewShipType.ArmourFamily="MineArmour"
 LoadHODFile(NewShipType,1);
-setEngineTrail(NewShipType,0,25,"missile_ribbon.tga",5.2,0.5,0.025,8);
+setEngineTrail(NewShipType,0,10,"trail_ribbon.tga",0.2,0.5,0.025,8);
 setEngineBurn(NewShipType,10,0.5,1,10,0,0.7,0.1,15);
 loadShipPatchList(NewShipType,"data:sound/sfx/ship/hiigaran/NonMilitary/Engines/"
                              ,0,"HTorpedoEng");
