@@ -35,4 +35,4 @@ NewSubSystemType.DockFamily = "CantDock"
 NewSubSystemType.DisplayFamily = "SubSystemModule"
 NewSubSystemType.ArmourFamily = "MediumArmour"
 StartSubSystemWeaponConfig(NewSubSystemType,"vgr_heavyfusionmissilelauncherbc","Weapon_T","NUL")
-StartSubSystemWeaponConfig(NewSubSystemType,"hgn_nuclearmissile","Weapon_Nuke","NUL")
+StartSubSystemWeaponConfig(NewSubSystemType,"vgr_nuclearmissile","Weapon_Nuke","NUL")

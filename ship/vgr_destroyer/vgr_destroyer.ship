@@ -153,7 +153,7 @@ LoadModel(NewShipType, 1)
 
 StartShipWeaponConfig(NewShipType,"hgn_rail","Weapon_FlechetteTop","Weapon_FlechetteTop");
 StartShipWeaponConfig(NewShipType,"hgn_rail","Weapon_FlechetteBot","Weapon_FlechetteBot");
-StartShipWeaponConfig(NewShipType,"vgr_volleymissile","Weapon_Missile","Fire_Missle");
+StartShipWeaponConfig(NewShipType,"vgr_nuclearmissile","Weapon_Missile","Fire_Missle");
 StartShipWeaponConfig(NewShipType,"Vgr_HullDefenseGun","Weapon_Defence1","");
 StartShipWeaponConfig(NewShipType,"Vgr_HullDefenseGun","Weapon_Defence2","");
 StartShipWeaponConfig(NewShipType,"Vgr_HullDefenseGun","Weapon_Defence3","");

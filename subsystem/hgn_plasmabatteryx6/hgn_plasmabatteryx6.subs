@@ -6,7 +6,7 @@
 --===========================================================================
 NewSubSystemType = StartSubSystemConfig()
 NewSubSystemType.displayedName="Heavy Plasma Battery"
-NewSubSystemType.sobDescription="2x Valencium Heavy Plasma Repeater Cannons"
+NewSubSystemType.sobDescription="2x Heavy Plasma Repeater Cannons"
 NewSubSystemType.tacticalIcon="hexagon"
 NewSubSystemType.tacticalIconMinSize=0.0035
 NewSubSystemType.tacticalIconMinFadeSize=0.0045

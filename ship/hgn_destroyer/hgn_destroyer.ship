@@ -149,7 +149,7 @@ addAbility(NewShipType, "CanBeRepaired")
 addAbility(NewShipType, "RetireAbility", 1, 1)
 LoadModel(NewShipType, 1)
 
-StartShipWeaponConfig(NewShipType, "hgn_nuclearmissile", "Weapon_Torpedo", "Weapon_Torpedo")
+StartShipWeaponConfig(NewShipType, "hgn_clusterbomb", "Weapon_Torpedo", "Weapon_Torpedo")
 StartShipWeaponConfig(NewShipType, "hgn_plasmabatteryx6", "Weapon_TurretTop", "Weapon_TurretTop")
 StartShipWeaponConfig(NewShipType, "hgn_plasmabatteryx6", "Weapon_TurretBottom", "Weapon_TurretBottom")
 StartShipWeaponConfig(NewShipType, "hgn_mediumplasmadriver", "Weapon_TurretFront", "Weapon_TurretFront")
