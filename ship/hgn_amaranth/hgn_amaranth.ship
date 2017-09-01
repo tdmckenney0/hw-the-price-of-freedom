@@ -186,8 +186,6 @@ addShield(NewShipType, "EMP", 10000, 20)
 
 AddShipAbility(NewShipType, "DefenseField", 1, "ThisShipOnly", 1)
 
-StartShipWeaponConfig(NewShipType, "tsar_repulsor", "Weapon_Repulsor", "Trigger")
-
 --Engineering Subsystems
 
 StartShipHardPointConfig(NewShipType,"Generic 1","HardpointGeneric1","Weapon","Generic","Destroyable","","Hgn_C_Module_FireControl","Hgn_C_Module_HyperspaceInhibitor","Hgn_C_Module_Hyperspace","","")

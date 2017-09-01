@@ -23,7 +23,7 @@ PersistantData = {
          number = 1,
 	},
 	{
-         type = "Hgn_Battleship",
+         type = "hgn_amaranth",
          subsystems = {},
          shiphold = {},
          name = "",

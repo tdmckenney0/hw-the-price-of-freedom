@@ -26,7 +26,7 @@ PersistantData = {
 			number = 1,
 		},
 		{
-			type = "vgr_dreadnaught",
+			type = "vgr_leviathan",
 			subsystems = {},
 			shiphold = {},
 			name = "",

@@ -2,7 +2,7 @@ PersistantData = {
 	StrikeGroups = {},
 	Squadrons = {
 		{
-			type = "Hgn_Battleship",
+			type = "hgn_amaranth",
 			subsystems = {},
 			shiphold = {},
 			name = "",
