@@ -14,11 +14,11 @@ PersistantData = {
 			subsystems = {},
 			shiphold = {
 				{
-					type = "hgn_drone",
+					type = "hgn_scout",
 					name = "",
 				},
 				{
-					type = "hgn_drone",
+					type = "hgn_scout",
 					name = "",
 				},
 				{

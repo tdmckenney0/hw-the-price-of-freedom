@@ -42,7 +42,7 @@ PersistantData = {
 			number = 5,
 		},
 		{
-			type = "vgr_drone",
+			type = "vgr_scout",
 			subsystems = {},
 			shiphold = {},
 			name = "",
