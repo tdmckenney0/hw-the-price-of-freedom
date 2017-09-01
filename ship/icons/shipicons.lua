@@ -2700,7 +2700,6 @@ hgn_battleshipminedropper = Icon_Subsystem_TorpedoLauncher
 hgn_booster = Icon_Subsystem_Engine
 hgn_c_module_build = Icon_Subsystem_ResearchAdvanced
 hgn_coilcannonx3 = Icon_Subsystem_IonTurret
-hgn_droneturret = Icon_Subsystem_Engine
 hgn_gatlinggun = Icon_Subsystem_Engine
 hgn_gatlinggunleft = Icon_Subsystem_Engine
 hgn_gatlinggunright = Icon_Subsystem_Engine
