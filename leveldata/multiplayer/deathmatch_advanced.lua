@@ -51,15 +51,14 @@ GameSetupOptions = {
 	
 	{
 		name = "startfleet",
-		locName = "Starting Mode",
+		locName = "Starting Fleet",
 		tooltip = "Choose A Starting Fleet",
 		default = 0,
 		visible = 1,
 		choices =
 		{
-			"Factory", "1",
-			"Carrier", "2",
-			"Fleet", "3",
+			"Light", "0",
+			"Heavy", "1",
 		},
 	},
 	
@@ -86,40 +85,11 @@ GameSetupOptions = {
 		visible = 1,
 		choices =
 		{
-			"Off", "mute",
-			"Shuffle: All", "shuffle",
-			"Shuffle: Ambient", "ambient",
-			"Shuffle: Staging", "staging",
-			"Shuffle: Battle", "battle",
-			"Ambient: Slipstream ", "staging\\Ambient",
-			"Ambient: No.1", "ambient\\amb_01",
-			"Ambient: No.2", "ambient\\amb_02",
-			"Ambient: No.3", "ambient\\amb_03",
-			"Ambient: No.4", "ambient\\amb_04",
-			"Ambient: No.5", "ambient\\amb_05",
-			"Ambient: No.6", "ambient\\amb_06",
-			"Ambient: No.7", "ambient\\amb_07",
-			"Ambient: No.8", "ambient\\amb_08",
-			"Ambient: No.9", "ambient\\amb_12",
-			"Ambient: No.10", "ambient\\amb_13",
-			"Ambient: No.11", "ambient\\amb_14",
-			"Battle: TPOF", "battle\\battle_01",
-			"Battle: No.2", "battle\\battle_04",
-			"Battle: No.3, Alternate", "battle\\battle_04_alt",
-			"Battle: No.4", "battle\\battle_06",
-			"Battle: Arrival", "battle\\battle_arrival",
-			"Battle: Credits", "credits",
-			"Battle: Keeper", "battle\\battle_keeper",
-			"Battle: Movers", "battle\\battle_movers",
-			"Battle: Planet Killers", "battle\\battle_planetkillers",
-			"Battle: Sajuuk", "battle\\battle_sajuuk",
-			"Staging: No.1", "staging\\staging_01",
-			"Staging: No.2", "staging\\staging_04",
-			"Staging: No.3", "staging\\staging_05",
-			"Staging: No.4", "staging\\staging_08",
-			"Staging: No.5", "staging\\staging_11",
-			"Suite: Slipstream", "staging\\suite",
-			"Suite: Freedom", "staging\\Freedom",
+			"Mute", "mute",
+			"All Music", "shuffle",
+			"Ambient Only", "ambient",
+			"Staging Only", "staging",
+			"Battle Only", "battle",
 		},
 	},
 }
@@ -161,10 +131,6 @@ function OnInit()
 	startfleet = GetGameSettingAsNumber("startfleet")
 
 	if startfleet == 1 then
-		SetStartFleetSuffix("")
-	elseif startfleet == 2 then
-		SetStartFleetSuffix("_light")
-	elseif startfleet == 3 then
 		SetStartFleetSuffix("_heavy")
 	else
 		SetStartFleetSuffix("")

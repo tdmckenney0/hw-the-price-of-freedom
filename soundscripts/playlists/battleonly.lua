@@ -9,4 +9,5 @@ PlayList =
 	{"battle\\battle_movers", "Battle - Movers", 632,},	-- 158
 	{"battle\\battle_planetkillers", "Battle - Planet Killers", 748,},	-- 187
 	{"battle\\battle_sajuuk", "Battle - Sajuuk", 644,},	-- 161
+	{"tpof\\battle", "Slipstream Battle - T. Mckenney", 552,},	-- 276
 }

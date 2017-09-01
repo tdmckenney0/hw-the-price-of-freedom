@@ -11,9 +11,6 @@ PlayList =
 	{"ambient\\amb_08", "Ambient No.8", 705,},	-- 141
 	{"ambient\\amb_12", "Ambient No.12", 628,},	-- 108
 	{"ambient\\amb_13", "Ambient No.13", 684,},	-- 114
-	{"ambient\\amb_14", "Ambient No.14", 725,},	-- 145
-	{"staging\\Suite", "Slipstream Suite - SRI-Emperor", 123,},
-	{"staging\\Freedom", "The Price of Freedom - DJZ4K", 175,},	-- 64
-	{"staging\\Ambient", "Slipstream Ambient - DJZ4K", 950,},	-- 64
-
+	{"ambient\\amb_14", "Ambient No.14", 725,},	-- 145	-- 64
+	{"tpof\\ambient", "Slipstream Ambient - DJZ4K", 950,},	-- 64
 }

@@ -2,12 +2,12 @@ PersistantData = {
 	StrikeGroups = {},
 	Squadrons = {
 		{
-			type = "Vgr_ResourceCollector",
+			type = "vgr_leviathan",
 			subsystems = {},
 			shiphold = {},
 			name = "",
 			size = 1,
-			number = 6,
+			number = 1,
 		},
 		{
 			type = "vgr_carrier",
@@ -18,15 +18,15 @@ PersistantData = {
 			number = 1,
 		},
 		{
-			type = "vgr_resourcecontroller",
+			type = "Vgr_ResourceCollector",
 			subsystems = {},
 			shiphold = {},
 			name = "",
 			size = 1,
-			number = 1,
+			number = 6,
 		},
 		{
-			type = "vgr_leviathan",
+			type = "vgr_resourcecontroller",
 			subsystems = {},
 			shiphold = {},
 			name = "",
