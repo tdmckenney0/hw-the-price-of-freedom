@@ -4,17 +4,14 @@
 -- on error send source file (compiled lua) and this outputfile to Age2uN@gmx.net
 --
 NewShipType = StartShipConfig()
-NewShipType.displayedName = "Kruszchev"
-NewShipType.sobDescription = "Fast-Attack Cruiser"
-NewShipType.maxhealth = 500000
+NewShipType.displayedName = "$1634"
+NewShipType.sobDescription = "$1635"
+NewShipType.maxhealth = 85000
 NewShipType.regentime = 1500
 NewShipType.minRegenTime = 450
-NewShipType.sideArmourDamage = 0.45
-NewShipType.rearArmourDamage = 0.45
-NewShipType.topArmourDamage = 0.45
-NewShipType.bottomArmourDamage = 0.35
-NewShipType.frontArmourDamage = 0.25
-NewShipType.isTransferable = 0
+NewShipType.sideArmourDamage = 1
+NewShipType.rearArmourDamage = 1.2
+NewShipType.isTransferable = 1
 NewShipType.useEngagementRanges = 1
 NewShipType.unitCapsNumber = 4
 NewShipType.SquadronSize = 1
@@ -23,7 +20,7 @@ NewShipType.defensiveFormation = "broad"
 NewShipType.aggressiveFormation = "delta"
 NewShipType.mass = 500
 NewShipType.collisionMultiplier = 1
-NewShipType.thrusterMaxSpeed = 110
+NewShipType.thrusterMaxSpeed = 135
 NewShipType.mainEngineMaxSpeed = 135
 NewShipType.rotationMaxSpeed = 9
 NewShipType.thrusterAccelTime = 6
@@ -41,15 +38,15 @@ NewShipType.descendPitch = 10
 NewShipType.goalReachEpsilon = 25
 NewShipType.slideMoveRange = 350
 NewShipType.controllerType = "Ship"
-NewShipType.tumbleStaticX = 2
-NewShipType.tumbleStaticY = 4
-NewShipType.tumbleStaticZ = 3
-NewShipType.tumbleDynamicX = 1
-NewShipType.tumbleDynamicY = 2
-NewShipType.tumbleDynamicZ = 1
-NewShipType.tumbleSpecialDynamicX = 1
-NewShipType.tumbleSpecialDynamicY = 2
-NewShipType.tumbleSpecialDynamicZ = 1
+NewShipType.tumbleStaticX = 10
+NewShipType.tumbleStaticY = 20
+NewShipType.tumbleStaticZ = 5
+NewShipType.tumbleDynamicX = 2
+NewShipType.tumbleDynamicY = 10
+NewShipType.tumbleDynamicZ = 5
+NewShipType.tumbleSpecialDynamicX = 2
+NewShipType.tumbleSpecialDynamicY = 10
+NewShipType.tumbleSpecialDynamicZ = 5
 NewShipType.relativeMoveFactor = 1
 NewShipType.swayUpdateTime = 2
 NewShipType.swayOffsetRandomX = 10
@@ -85,14 +82,14 @@ NewShipType.antiFighterValue = 0
 NewShipType.antiCorvetteValue = 0
 NewShipType.antiFrigateValue = 30
 NewShipType.totalValue = 50
-NewShipType.buildCost = 2500
+NewShipType.buildCost = 2000
 NewShipType.buildTime = 165
 NewShipType.buildPriorityOrder = 20
 NewShipType.retaliationRange = 6000
 NewShipType.retaliationDistanceFromGoal = 160
-NewShipType.visualRange=7000
-NewShipType.prmSensorRange=7000
-NewShipType.secSensorRange=8500
+NewShipType.visualRange = 7000
+NewShipType.prmSensorRange = 7000
+NewShipType.secSensorRange = 8500
 NewShipType.detectionStrength = 1
 NewShipType.TOIcon = "Parallelogram"
 NewShipType.TOScale = 1
@@ -112,15 +109,13 @@ NewShipType.nlipsRange = 6000
 NewShipType.nlipsFar = 0.000013
 NewShipType.nlipsFarRange = 10000
 NewShipType.SMRepresentation = "Mesh"
-NewShipType.meshRenderLimit = 15600
+NewShipType.meshRenderLimit = 18000
 NewShipType.dotRenderLimit = 10
 NewShipType.visibleInSecondary = 1
-NewShipType.goblinsStartFade = 2000
-NewShipType.goblinsOff = 2000
-NewShipType.upLOD = 2500
-NewShipType.upLOD = 3000
-NewShipType.downLOD = 2515
-NewShipType.downLOD = 3015
+NewShipType.goblinsStartFade = 2150
+NewShipType.goblinsOff = 2150
+NewShipType.upLOD = 4150
+NewShipType.downLOD = 4165
 NewShipType.minimumZoomFactor = 0.5
 NewShipType.selectionLimit = 150000
 NewShipType.preciseATILimit = 0
@@ -155,22 +150,18 @@ addAbility(NewShipType,"MinelayerAbility",1,3.5)
 addAbility(NewShipType, "CanBeRepaired")
 addAbility(NewShipType, "RetireAbility", 1, 1)
 LoadModel(NewShipType, 1)
-StartShipWeaponConfig(NewShipType, "vgr_volleymissile", "Weapon_Missile", "")
-StartShipWeaponConfig(NewShipType, "hgn_nuclearmissile", "Weapon_nuke", "")
-StartShipWeaponConfig(NewShipType, "Vgr_HullDefenseGun", "Weapon_Defence1", "")
-StartShipWeaponConfig(NewShipType, "Vgr_HullDefenseGun", "Weapon_Defence2", "")
-StartShipWeaponConfig(NewShipType, "Vgr_HullDefenseGun", "Weapon_Defence3", "")
-StartShipWeaponConfig(NewShipType, "Vgr_HullDefenseGun", "Weapon_Defence4", "")
-StartShipWeaponConfig(NewShipType, "vgr_fixedppc", "Weapon_VD_Blast", "")
+
+StartShipWeaponConfig(NewShipType,"hgn_rail","Weapon_FlechetteTop","Weapon_FlechetteTop");
+StartShipWeaponConfig(NewShipType,"hgn_rail","Weapon_FlechetteBot","Weapon_FlechetteBot");
+StartShipWeaponConfig(NewShipType,"vgr_volleymissile","Weapon_Missile","Fire_Missle");
+StartShipWeaponConfig(NewShipType,"Vgr_HullDefenseGun","Weapon_Defence1","");
+StartShipWeaponConfig(NewShipType,"Vgr_HullDefenseGun","Weapon_Defence2","");
+StartShipWeaponConfig(NewShipType,"Vgr_HullDefenseGun","Weapon_Defence3","");
+StartShipWeaponConfig(NewShipType,"Vgr_HullDefenseGun","Weapon_Defence4","");
 
 addShield(NewShipType, "EMP", 1000, 20)
-StartShipHardPointConfig(NewShipType, "Engine", "Hardpoint_Engine", "System", "Innate", "Damageable", "Vgr_Des_Engine", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Top_Turret", "Hardpoint_Turret_Top", "System", "Innate", "Damageable", "Vgr_IonBeamTurret", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Bottom_Turret", "Hardpoint_Turret_Bot", "System", "Innate", "Damageable", "vgr_plasmabatteryx4", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Side_turret1", "Hardpoint_Turret_side1", "System", "Innate", "Damageable", "vgr_railgun", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Side_turret2", "Weapon_Turret_side2", "System", "Innate", "Damageable", "vgr_railgun", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Missile_turret1", "Hardpoint_Turret_front1", "System", "Innate", "Damageable", "vgr_pmortarfrigatebottom", "", "", "", "", "", "", "", "")
-StartShipHardPointConfig(NewShipType, "Missile_turret2", "Hardpoint_Turret_front2", "System", "Innate", "Damageable", "vgr_pmortarfrigatebottom", "", "", "", "", "", "", "", "")
+
+StartShipHardPointConfig(NewShipType,"Engine","Hardpoint_Engine","System","Innate","Damageable","Vgr_Des_Engine","","","","","","","","");
 
 SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg03", 1, 0.75, 0, 0, 0, 50, 0, 0, 0, 200, 0, 0, 0, 50, 0, 0, 0, 50)
 SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg02", 1, 0.05, 30, -20, 200, 25, 300, 150, 85, 50, 0, 0, 0, 85, 0, 0, 0, 50)

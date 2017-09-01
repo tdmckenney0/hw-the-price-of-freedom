@@ -77,7 +77,7 @@ NewShipType.AutoFormationFamily = "CapShip"
 NewShipType.CollisionFamily = "Big"
 NewShipType.ArmourFamily = "HeavyArmour"
 NewShipType.UnitCapsFamily = "Capital"
-NewShipType.UnitCapsShipType = "Battleship"
+NewShipType.UnitCapsShipType = "HeroShip"
 NewShipType.fighterValue = 0
 NewShipType.corvetteValue = 0
 NewShipType.frigateValue = 80
@@ -237,6 +237,6 @@ NewShipType.chanceOfSpecialDeath = 0
 NewShipType.deadSobFadeTime = 0.4
 NewShipType.trailLinger = 3
 setEngineBurn(NewShipType, 9, 0.2, 0.5, 300, 1.02, 0.1, 0.25, 380)
-setEngineGlow(NewShipType, 1, 1, 1.02, 20, 300, 50, 1.5,
-    { 1, 0.47, 0, 0.2, })
-loadShipPatchList(NewShipType, "data:sound/sfx/ship/Hiigaran/MegaShip/", 0, "Engines/HDreadnaughtEng", "", 1, "Ambience/HMotherShipAmb", "")
+setEngineGlow(NewShipType, 1, 1, 1.02, 20, 450, 150, 1.5, 
+    { 0.27, 0.47, 0.69, 0.25, })
+loadShipPatchList(NewShipType, "data:sound/sfx/ship/Hiigaran/Carrier/", 0, "Engines/HDestroyerEng", "", 1, "Ambience/HBattleCrusierAmb", "")

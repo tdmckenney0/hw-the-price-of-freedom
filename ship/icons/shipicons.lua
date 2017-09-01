@@ -2704,6 +2704,7 @@ hgn_gatlinggun = Icon_Subsystem_Engine
 hgn_gatlinggunleft = Icon_Subsystem_Engine
 hgn_gatlinggunright = Icon_Subsystem_Engine
 hgn_gatlinggunsmall = Icon_Subsystem_Engine
+hgn_ioncannon = Icon_Subsystem_IonTurret
 hgn_ioncannonx2 = Icon_Subsystem_IonTurret
 hgn_ioncannonx3 = Icon_Subsystem_IonTurret
 hgn_lasersmall = Icon_Subsystem_IonTurret

@@ -6,7 +6,8 @@
         "*.wf" : "lua",
         "*.level" : "lua",
         "*.events" : "lua",
-        "*.wepn" : "lua"
+        "*.wepn" : "lua",
+        "*.subs" : "lua"
     },
       
     "editor.tabSize": 4
