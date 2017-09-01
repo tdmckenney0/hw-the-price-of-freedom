@@ -51,14 +51,6 @@ PersistantData = {
          number = 5,
 	},
 	{
-         type = "hgn_crossbow_cruiser",
-         subsystems = {},
-         shiphold = {},
-         name = "",
-         size = 1,
-         number = 2,
-	},
-	{
          type = "hgn_Destroyer",
          subsystems = {},
          shiphold = {},

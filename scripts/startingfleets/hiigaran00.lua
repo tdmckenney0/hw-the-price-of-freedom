@@ -13,7 +13,7 @@ PersistantData = {
          number = 1,
     },
 	{
-         type = "Hgn_Shipyard",
+         type = "Hgn_carrier",
          subsystems = {
          },
          shiphold = {
@@ -46,10 +46,5 @@ PersistantData = {
          size = 1,
       },
    },
-   Research = {
-   [1] = {
-      name = "SCENABLED",
-      progress = 1,
-    },
-   },
+   Research = {},
 }

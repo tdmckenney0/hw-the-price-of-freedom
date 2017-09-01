@@ -31,13 +31,6 @@ PersistantData = {
          number = 2,
 	},
 	{
-         type = "vgr_Helios",
-         subsystems = {},
-         shiphold = {},
-         name = "",
-         number = 2,
-	},
-	{
          type = "vgr_assaultfrigate",
          subsystems = {},
          shiphold = {},
