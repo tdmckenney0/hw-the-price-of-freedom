@@ -1,12 +1,7 @@
--- LuaDC version 0.9.19
--- 5/23/2004 7:24:00 PM
--- LuaDC by Age2uN
--- on error send source file (compiled lua) and this outputfile to Age2uN@gmx.net
---
-NewShipType = StartShipConfig()
-NewShipType.displayedName = "Gun Sentry"
-NewShipType.sobDescription = "Platform"
-NewShipType.maxhealth = 25000
+NewShipType  =  StartShipConfig()
+NewShipType.displayedName = "$1512"
+NewShipType.sobDescription = "$1513"
+NewShipType.maxhealth = 5000
 NewShipType.regentime = 0
 NewShipType.minRegenTime = 0
 NewShipType.sideArmourDamage = 1
@@ -21,8 +16,8 @@ NewShipType.defensiveFormation = "x"
 NewShipType.aggressiveFormation = "Claw"
 NewShipType.mass = 20
 NewShipType.collisionMultiplier = 1
-NewShipType.thrusterMaxSpeed = 100
-NewShipType.mainEngineMaxSpeed = 320
+NewShipType.thrusterMaxSpeed = 125
+NewShipType.mainEngineMaxSpeed = 125
 NewShipType.rotationMaxSpeed = 120
 NewShipType.thrusterAccelTime = 2.6
 NewShipType.thrusterBrakeTime = 1
@@ -75,7 +70,7 @@ NewShipType.antiFighterValue = 8
 NewShipType.antiCorvetteValue = 0
 NewShipType.antiFrigateValue = 0
 NewShipType.totalValue = 8
-NewShipType.buildCost = 250
+NewShipType.buildCost = 300
 NewShipType.buildTime = 20
 NewShipType.buildPriorityOrder = 10
 NewShipType.retaliationRange = 5500
@@ -102,15 +97,11 @@ NewShipType.nlipsRange = 6000
 NewShipType.nlipsFar = 0.00015
 NewShipType.nlipsFarRange = 10000
 NewShipType.SMRepresentation = "HardDot"
-NewShipType.meshRenderLimit = 10400
+NewShipType.meshRenderLimit = 11000
 NewShipType.dotRenderLimit = 10
 NewShipType.visibleInSecondary = 1
-NewShipType.goblinsStartFade = 400
-NewShipType.goblinsOff = 400
-NewShipType.upLOD = 800
-NewShipType.upLOD = 1300
-NewShipType.downLOD = 815
-NewShipType.downLOD = 1315
+NewShipType.goblinsStartFade = 410
+NewShipType.goblinsOff = 410
 NewShipType.minimumZoomFactor = 1
 NewShipType.selectionLimit = 150000
 NewShipType.preciseATILimit = 0
@@ -141,15 +132,17 @@ LoadModel(NewShipType, 1)
 StartShipWeaponConfig(NewShipType, "hgn_gatlinggunsmall", "Weapon_Top", "")
 StartShipWeaponConfig(NewShipType, "hgn_gatlinggunsmall", "Weapon_Bottom", "")
 
-addShield(NewShipType, "EMP", 40, 20)
-NewShipType.battleScarMaxTriBase = 20
-NewShipType.battleScarMaxTriInc = 30
+
+addShield(NewShipType,"EMP",40,20);
+NewShipType.battleScarCoverage = 2
 NewShipType.sobDieTime = 1
 NewShipType.sobSpecialDieTime = 1
 NewShipType.specialDeathSpeed = 40
 NewShipType.chanceOfSpecialDeath = 0
 NewShipType.deadSobFadeTime = 1
-setEngineTrail(NewShipType, 0, 4, "trail_ribbon.tga", 0.01, 0.2, 0.025, 3)
-setEngineTrail(NewShipType, 1, 4, "trail_ribbon.tga", 0.01, 0.2, 0.025, 3)
-setEngineBurn(NewShipType, 15, 2, 3, 9, 1.2, 0.1, 0.5, 50)
-loadShipPatchList(NewShipType, "data:sound/sfx/ship/Hiigaran/NonMilitary/", 0, "Engines/HWeaponPlatformEng", "", 1, "Ambience/HWeaponPlatformAmb", "")
+setEngineTrail(NewShipType,0,5,"trail_ribbon.tga",0.001,0.2,0.025,3);
+setEngineTrail(NewShipType,1,5,"trail_ribbon.tga",0.001,0.2,0.025,3);
+setEngineBurn(NewShipType,15,2,3,9,1.2,0.1,0.5,50);
+loadShipPatchList(NewShipType,"data:sound/sfx/ship/Hiigaran/NonMilitary/"
+                             ,0,"Engines/HWeaponPlatformEng",""
+                             ,1,"Ambience/HWeaponPlatformAmb","");											 

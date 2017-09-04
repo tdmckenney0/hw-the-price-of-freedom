@@ -23,7 +23,7 @@ PersistantData = {
 			shiphold = {},
 			name = "",
 			size = 1,
-			number = 6,
+			number = 3,
 		},
 		{
 			type = "Hgn_resourcecontroller",

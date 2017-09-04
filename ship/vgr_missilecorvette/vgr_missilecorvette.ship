@@ -4,9 +4,9 @@
 -- on error send source file (compiled lua) and this outputfile to Age2uN@gmx.net
 --
 NewShipType = StartShipConfig()
-NewShipType.displayedName = "Bomber Corvette"
-NewShipType.sobDescription = "Bomber Class\nBomber Corvette"
-NewShipType.maxhealth = 7250
+NewShipType.displayedName = "$1612"
+NewShipType.sobDescription = "$1613"
+NewShipType.maxhealth = 400
 NewShipType.regentime = 0
 NewShipType.minRegenTime = 0
 NewShipType.sideArmourDamage = 1
@@ -16,9 +16,9 @@ NewShipType.useEngagementRanges = 0
 NewShipType.unitCapsNumber = 2
 NewShipType.SquadronSize = 4
 NewShipType.formationSpacing = 40
-NewShipType.passiveFormation = "ScatterWide"
-NewShipType.defensiveFormation = "ScatterDelta_Long"
-NewShipType.aggressiveFormation = "ScatterNarrow"
+NewShipType.passiveFormation = "broad"
+NewShipType.defensiveFormation = "2x2_wall"
+NewShipType.aggressiveFormation = "charging_wall"
 NewShipType.mass = 15
 NewShipType.collisionMultiplier = 1
 NewShipType.thrusterMaxSpeed = 425
@@ -42,9 +42,9 @@ NewShipType.controllerType = "Ship"
 NewShipType.tumbleStaticX = 10
 NewShipType.tumbleStaticY = 20
 NewShipType.tumbleStaticZ = 5
-NewShipType.tumbleDynamicX = 2
-NewShipType.tumbleDynamicY = 10
-NewShipType.tumbleDynamicZ = 5
+NewShipType.tumbleDynamicX = 50
+NewShipType.tumbleDynamicY = 100
+NewShipType.tumbleDynamicZ = 25
 NewShipType.tumbleSpecialDynamicX = 2
 NewShipType.tumbleSpecialDynamicY = 10
 NewShipType.tumbleSpecialDynamicZ = 5
@@ -106,18 +106,12 @@ NewShipType.nlipsRange = 6000
 NewShipType.nlipsFar = 0.0001
 NewShipType.nlipsFarRange = 10000
 NewShipType.SMRepresentation = "HardDot"
-NewShipType.meshRenderLimit = 10400
+NewShipType.meshRenderLimit = 11000
 NewShipType.dotRenderLimit = 10
 NewShipType.visibleInSecondary = 1
 NewShipType.minLOD = 0.3
-NewShipType.goblinsStartFade = 400
-NewShipType.goblinsOff = 400
-NewShipType.upLOD = 800
-NewShipType.upLOD = 1300
-NewShipType.upLOD = 2500
-NewShipType.downLOD = 815
-NewShipType.downLOD = 1315
-NewShipType.downLOD = 2515
+NewShipType.goblinsStartFade = 410
+NewShipType.goblinsOff = 410
 NewShipType.minimumZoomFactor = 0.6
 NewShipType.selectionLimit = 150000
 NewShipType.preciseATILimit = 0
@@ -137,43 +131,36 @@ NewShipType.launchTimeBetweenTwoFormations = 0.5
 NewShipType.launchTimeBeforeStart = 0.5
 NewShipType.launchNrOfShipsInDockFormation = 1
 NewShipType.launchFormation = "dockline"
-addAbility(NewShipType, "ParadeCommand", 1)
-addAbility(NewShipType, "WaypointMove")
-addAbility(NewShipType, "CanAttack", 1, 1, 1, 0, 0.35, 1, "munition, Capturer, Frigate, SmallCapitalShip, BigCapitalShip, Corvette, Fighter, Utility", "FlyBy_Bomber_vs_Frigate",
-{
-    Fighter = "Flyby_Bomber_vs_Fighter",
-},
-{
-    SubSystem = "TopAttack_Bomber_vs_Subsystem",
-},
-{
-    SmallCapitalShip = "Strafe_Bomber_vs_Capship",
-},
-{
-    BigCapitalShip = "Strafe_Bomber_vs_Capship",
-},
-{
-    Mothership = "Flyby_Bomber_vs_Mothership",
-},
-{
-    ResourceLarge = "Flyby_Bomber_vs_ResourceLarge",
-},
-{
-    Corvette = "Flyby_Bomber_vs_Fighter",
-},
-{
-    Chimera = "Flyby_VBomber_vs_Chimera", })
-addAbility(NewShipType, "GuardCommand", 1, 3000, 500)
-addAbility(NewShipType, "HyperspaceViaGateCommand", 1, 3, 1, 0.3)
-addAbility(NewShipType, "RetireAbility", 1, 0)
-LoadModel(NewShipType, 1)
-StartShipWeaponConfig(NewShipType, "vgr_bomberplasmadriver", "Weapon_MissileVette", "")
-addShield(NewShipType, "EMP", 75, 20)
-NewShipType.sobDieTime = 1
+addAbility(NewShipType,"ParadeCommand",1);
+addAbility(NewShipType,"WaypointMove");
+addAbility(NewShipType,"CanAttack",1,2,1,0,0.35,1,"Munition, Corvette, Fighter, Frigate, SmallCapitalShip, BigCapitalShip, Utility","FlyBy_Corvette_vs_Corvette",
+    {Fighter = "FlyRound_Corvette_vs_Fighter"},
+    {Mothership = "flyround_Corvette_vs_Mothership"},
+    {SmallCapitalShip = "FlyRound_Corvette_vs_CapShip"},
+    {BigCapitalShip = "FlyRound_Corvette_vs_CapShip"},
+    {SubSystem = "FrontalVsSubSystem_Corvette"},
+    {Corvette = "FlyBy_Corvette_vs_Corvette"},
+    {Munition = "MoveToTargetAndShoot"},
+    {Frigate = "FlyRound_Corvette_vs_Frigate"}
+);
+addAbility(NewShipType,"GuardCommand",1,3000,500);
+addAbility(NewShipType,"HyperspaceViaGateCommand",1,3,1,0.3);
+addAbility(NewShipType,"RetireAbility",1,0);
+addAbility(NewShipType,"MinelayerAbility",1,3.5); -- Allows ships to shoot at Missiles and Mines.
+
+LoadModel(NewShipType,1);
+StartShipWeaponConfig(NewShipType,"Vgr_ConcussionMissileLauncher","Weapon_MissileVette","Fire_Missile");
+addShield(NewShipType,"EMP",75,20);
+NewShipType.battleScarCoverage = 1
+NewShipType.battleScarBudgetLow  =  400
+NewShipType.battleScarBudgetNext  =  600
+NewShipType.sobDieTime = 2
 NewShipType.sobSpecialDieTime = 1
 NewShipType.specialDeathSpeed = 40
 NewShipType.chanceOfSpecialDeath = 0
-NewShipType.deadSobFadeTime = 1
-setEngineTrail(NewShipType, 0, 4, "trail_ribbon.tga", 0.05, 0.1, 0.025, 2)
-setEngineBurn(NewShipType, 12, 0.5, 1, 12, 0, 0.7, 0.1, 35)
-loadShipPatchList(NewShipType, "data:sound/sfx/ship/Vaygr/Corvette/", 0, "Engines/VCorvetteEng", "", 1, "Ambience/VCorvetteAmb", "")
+NewShipType.deadSobFadeTime = 0
+setEngineTrail(NewShipType,0,6,"trail_ribbon.tga",0.005,0.1,0.025,2);
+setEngineBurn(NewShipType,12,0.5,1,12,0,0.7,0.1,35);
+loadShipPatchList(NewShipType,"data:sound/sfx/ship/Vaygr/Corvette/"
+                             ,0,"Engines/VCorvetteEng",""
+                             ,1,"Ambience/VCorvetteAmb","");

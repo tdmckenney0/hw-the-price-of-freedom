@@ -5,8 +5,8 @@
 --
 NewShipType = StartShipConfig()
 NewShipType.displayedName = "$1548"
-NewShipType.sobDescription = "Proximity Sensor"
-NewShipType.maxhealth = 250
+NewShipType.sobDescription = "$1549"
+NewShipType.maxhealth = 100
 NewShipType.regentime = 0
 NewShipType.minRegenTime = 0
 NewShipType.sideArmourDamage = 1
@@ -19,8 +19,8 @@ NewShipType.defensiveFormation = "x"
 NewShipType.aggressiveFormation = "Claw"
 NewShipType.mass = 10
 NewShipType.collisionMultiplier = 1
-NewShipType.thrusterMaxSpeed = 600
-NewShipType.mainEngineMaxSpeed = 600
+NewShipType.thrusterMaxSpeed = 1000
+NewShipType.mainEngineMaxSpeed = 1000
 NewShipType.rotationMaxSpeed = 171
 NewShipType.thrusterAccelTime = 2
 NewShipType.thrusterBrakeTime = 1
@@ -101,24 +101,18 @@ NewShipType.nlipsRange = 10000
 NewShipType.nlipsFar = 0.0005
 NewShipType.nlipsFarRange = 20000
 NewShipType.SMRepresentation = "HardDot"
-NewShipType.meshRenderLimit = 10400
+NewShipType.meshRenderLimit = 11000
 NewShipType.dotRenderLimit = 10
 NewShipType.visibleInSecondary = 0
 NewShipType.minLOD = 0.2
 NewShipType.goblinsStartFade = 100
 NewShipType.goblinsOff = 100
-NewShipType.upLOD = 400
-NewShipType.upLOD = 1000
-NewShipType.upLOD = 2500
-NewShipType.downLOD = 405
-NewShipType.downLOD = 1005
-NewShipType.downLOD = 2505
 NewShipType.minimumZoomFactor = 1.3
 NewShipType.selectionLimit = 150000
 NewShipType.preciseATILimit = 0
 NewShipType.selectionPriority = 75
 NewShipType.militaryUnit = 0
-addAbility(NewShipType, "MoveCommand", 1, 0)
+addAbility(NewShipType,"MoveCommand",1,1);
 NewShipType.dontDockWithOtherRaceShips = 0
 NewShipType.ignoreRaceWhenDocking = 0
 addAbility(NewShipType, "CanLaunch")
@@ -126,14 +120,16 @@ NewShipType.launchTimeBetweenTwoFormations = 1
 NewShipType.launchTimeBeforeStart = 2
 NewShipType.launchNrOfShipsInDockFormation = 1
 NewShipType.launchFormation = "delta"
-addAbility(NewShipType, "ParadeCommand", 1)
-LoadModel(NewShipType, 1)
-addShield(NewShipType, "EMP", 50, 20)
+addAbility(NewShipType,"ParadeCommand",1);
+LoadModel(NewShipType,1);
+addShield(NewShipType,"EMP",50,20);
+NewShipType.battleScarCoverage = 0
 NewShipType.sobDieTime = 1
 NewShipType.sobSpecialDieTime = 1
 NewShipType.specialDeathSpeed = 40
 NewShipType.chanceOfSpecialDeath = 0
 NewShipType.deadSobFadeTime = 1
-setEngineTrail(NewShipType, 0, 1.4, "trail_ribbon.tga", 0.1, 0.1, 0.025, 2)
-setEngineBurn(NewShipType, 20, 0.5, 0.6, 16, 0.1, 0.1, 0.25, 28)
-loadShipPatchList(NewShipType, "data:sound/sfx/ship/Hiigaran/NonMilitary/", 0, "Engines/HProbeEng", "")
+setEngineTrail(NewShipType,0,3.4,"trail_ribbon.tga",0.001,0.1,0.025,2);
+setEngineBurn(NewShipType,20,0.5,0.6,16,0.1,0.1,0.25,28);
+loadShipPatchList(NewShipType,"data:sound/sfx/ship/Hiigaran/NonMilitary/"
+                             ,0,"Engines/HProbeEng","");

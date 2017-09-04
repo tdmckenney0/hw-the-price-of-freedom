@@ -118,6 +118,7 @@ NewShipType.upLOD = 4150
 NewShipType.downLOD = 4165
 NewShipType.minimumZoomFactor = 0.5
 NewShipType.selectionLimit = 150000
+NewShipType.preciseSelectionLimit = 5000
 NewShipType.preciseATILimit = 0
 NewShipType.selectionPriority = 75
 NewShipType.militaryUnit = 1
@@ -137,50 +138,44 @@ NewShipType.launchTimeBetweenTwoFormations = 1
 NewShipType.launchTimeBeforeStart = 2
 NewShipType.launchNrOfShipsInDockFormation = 1
 NewShipType.launchFormation = "delta"
-addAbility(NewShipType, "ParadeCommand", 1)
-addAbility(NewShipType, "WaypointMove")
-addAbility(NewShipType,"HyperSpaceCommand",1,0,250,250,0,3.141592653);
-addAbility(NewShipType, "CanAttack", 1, 1, 0, 0, 0.35, 1.5, "munition, Capturer, Frigate, SmallCapitalShip, BigCapitalShip, Mothership, Utility, Corvette, Fighter", "Flyround_destroyer",
-{
-    Mothership = "Flyround_destroyer",})
-addAbility(NewShipType, "GuardCommand", 1, 3000, 800)
-addAbility(NewShipType, "HyperspaceViaGateCommand", 1, 3, 1, 0.3)
-addAbility(NewShipType, "CanBeCaptured", 90, 0.1)
-addAbility(NewShipType,"MinelayerAbility",1,3.5)
-addAbility(NewShipType, "CanBeRepaired")
-addAbility(NewShipType, "RetireAbility", 1, 1)
-LoadModel(NewShipType, 1)
-
-StartShipWeaponConfig(NewShipType,"hgn_rail","Weapon_FlechetteTop","Weapon_FlechetteTop");
-StartShipWeaponConfig(NewShipType,"hgn_rail","Weapon_FlechetteBot","Weapon_FlechetteBot");
-StartShipWeaponConfig(NewShipType,"vgr_nuclearmissile","Weapon_Missile","Fire_Missle");
+addAbility(NewShipType,"ParadeCommand",1);
+addAbility(NewShipType,"WaypointMove");
+addAbility(NewShipType,"HyperSpaceCommand",1,2,500,1000,0,3);
+addAbility(NewShipType,"CanAttack",1,1,0,0,0.35,1.5,"Munition, Capturer, Frigate, SmallCapitalShip, BigCapitalShip, Mothership, Utility, Corvette, Fighter","Flyround_destroyer");
+addAbility(NewShipType,"GuardCommand",1,3000,800);
+addAbility(NewShipType,"HyperspaceViaGateCommand",1,3,1,0.3);
+addAbility(NewShipType,"CanBeCaptured",90,0.1,"CapCap");
+addAbility(NewShipType,"CanBeRepaired","RepCap");
+addAbility(NewShipType,"RetireAbility",1,1);
+addAbility(NewShipType,"MinelayerAbility",1,3.5); -- Allows ships to shoot at Missiles and Mines.
+LoadModel(NewShipType,1);
+StartShipWeaponConfig(NewShipType,"vgr_flakturret","Weapon_FlechetteTop","Weapon_FlechetteTop");
+StartShipWeaponConfig(NewShipType,"vgr_flakturret","Weapon_FlechetteBot","Weapon_FlechetteBot");
+StartShipWeaponConfig(NewShipType,"vgr_volleymissile","Weapon_Missile","Fire_Missle");
 StartShipWeaponConfig(NewShipType,"Vgr_HullDefenseGun","Weapon_Defence1","");
 StartShipWeaponConfig(NewShipType,"Vgr_HullDefenseGun","Weapon_Defence2","");
 StartShipWeaponConfig(NewShipType,"Vgr_HullDefenseGun","Weapon_Defence3","");
 StartShipWeaponConfig(NewShipType,"Vgr_HullDefenseGun","Weapon_Defence4","");
 
-addShield(NewShipType, "EMP", 1000, 20)
+addShield(NewShipType,"EMP",1000,20);
 
 StartShipHardPointConfig(NewShipType,"Engine","Hardpoint_Engine","System","Innate","Damageable","Vgr_Des_Engine","","","","","","","","");
-
-SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg03", 1, 0.75, 0, 0, 0, 50, 0, 0, 0, 200, 0, 0, 0, 50, 0, 0, 0, 50)
-SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg02", 1, 0.05, 30, -20, 200, 25, 300, 150, 85, 50, 0, 0, 0, 85, 0, 0, 0, 50)
-SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg04", 1, 0.05, 50, 40, -150, 50, 65, 25, 5, 25, 0, 0, 0, 95, 0, 0, 0, 50)
-SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg05", 1, 0.05, 25, 10, -100, 30, 35, 75, 62, 75, 0, 0, 0, 80, 0, 0, 0, 50)
-SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg01", 1, 0.05, 60, 30, 150, 25, 35, 125, 65, 75, 0, 0, 0, 60, 0, 0, 0, 50)
-SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Sml01", 1, 0.01, 80, 125, 60, 75, 125, 80, 65, 75, 0, 0, 0, 60, 0, 0, 0, 50)
-SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Sml02", 1, 0.01, 25, 0, -125, 50, 80, 35, 120, 75, 0, 0, 0, 60, 0, 0, 0, 50)
-SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Sml03", 1, 0.01, 60, 95, 200, 50, 15, 200, 20, 125, 0, 0, 0, 60, 0, 0, 0, 50)
-SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Sml04", 1, 0.01, 10, 60, -300, 25, 35, 80, 65, 75, 0, 0, 0, 60, 0, 0, 0, 50)
-SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Sml05", 1, 0.01, 60, 10, 30, 75, 35, 25, 65, 75, 0, 0, 0, 60, 0, 0, 0, 50)
-NewShipType.battleScarMaxTriBase = 150
-NewShipType.battleScarMaxTriInc = 200
-NewShipType.sobDieTime = 1
+SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Lrg03",1, 0.45,0,0,0, 0,0,0,50,0,0,0,200,0,0,0,50,0,0,0,50);
+SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Lrg05",1, 0.2,0,0,0, 25,10,-100,30,35,75,62,75,0,0,0,80,0,0,0,50);
+SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Lrg01",1, 0.1,0,0,0, 60,30,150,25,35,125,65,75,0,0,0,60,0,0,0,50);
+SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Sml01",1, 0.09,0,0,0, 80,125,60,75,125,80,65,75,0,0,0,60,0,0,0,50);
+SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Sml04",1, 0.085,0,0,0, 10,60,-300,25,35,80,65,75,0,0,0,60,0,0,0,50);
+SpawnSalvageOnDeath(NewShipType,"Slv_Chunk_Sml05",1, 0.075,0,0,0, 60,10,30,75,35,25,65,75,0,0,0,60,0,0,0,50);
+NewShipType.battleScarCoverage = 3
+NewShipType.battleScarBudgetLow  =  600
+NewShipType.battleScarBudgetNext  =  900
+NewShipType.sobDieTime = 5.9
 NewShipType.sobSpecialDieTime = 1
 NewShipType.specialDeathSpeed = 40
 NewShipType.chanceOfSpecialDeath = 0
 NewShipType.deadSobFadeTime = 0
 NewShipType.trailLinger = 2
-setEngineGlow(NewShipType, 1, 1, 1.02, 20, 300, 50, 1.5,
-    { 0.92, 0.21, 0.09, 0.25, })
-loadShipPatchList(NewShipType, "data:sound/sfx/ship/Vaygr/Carrier/", 0, "Engines/VDestroyerEng", "", 1, "Ambience/VDestroyerAmb", "")
+setEngineGlow(NewShipType,1,1,1.02,20,300,50,1.5,{0.92, 0.21, .09, 0.25});
+loadShipPatchList(NewShipType,"data:sound/sfx/ship/Vaygr/Carrier/"
+                             ,0,"Engines/VDestroyerEng",""
+                             ,1,"Ambience/VDestroyerAmb","");
