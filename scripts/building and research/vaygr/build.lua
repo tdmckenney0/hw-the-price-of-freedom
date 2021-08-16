@@ -469,15 +469,6 @@ build = {
     },
     {
         Type = SubSystem,
-        ThingToBuild = "Vgr_Missileturret",
-        RequiredResearch = "",
-        RequiredShipSubSystems = "",
-        DisplayPriority = 4000,
-        DisplayedName = "Missile Turret",
-        Description = "Missile Turret"
-    },
-    {
-        Type = SubSystem,
         ThingToBuild = "Vgr_Pmortarfrigate",
         RequiredResearch = "",
         RequiredShipSubSystems = "",

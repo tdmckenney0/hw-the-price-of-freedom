@@ -2193,7 +2193,6 @@ vgr_ionbeamturret = Icon_Subsystem_IonTurret
 vgr_ionbeamturretx3 = Icon_Subsystem_IonTurret
 vgr_mediumplasmadriver = Icon_Subsystem_IonTurret
 vgr_missilebay = Icon_Subsystem_TorpedoLauncher
-vgr_missileturret = Icon_Subsystem_TorpedoLauncher
 vgr_plasmabatteryx4 = Icon_Subsystem_IonTurret
 vgr_pmortarfrigate = Icon_Subsystem_Engine
 vgr_pmortarfrigateleft = Icon_Subsystem_Engine
