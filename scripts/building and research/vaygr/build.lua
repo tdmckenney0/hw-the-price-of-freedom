@@ -80,6 +80,15 @@ build = {
     },
     {
         Type = SubSystem,
+        ThingToBuild = "Vgr_BC_Production_Fighter",
+        RequiredResearch = "",
+        RequiredFleetSubSystems = "",
+        DisplayPriority = 0,
+        DisplayedName = "$7100",
+        Description = "$7101"
+    },
+    {
+        Type = SubSystem,
         ThingToBuild = "Vgr_C_Module_CloakGenerator",
         RequiredResearch = "",
         RequiredFleetSubSystems = "",

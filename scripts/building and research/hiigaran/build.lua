@@ -62,6 +62,15 @@ build = {
     },
     {
         Type = SubSystem,
+        ThingToBuild = "Hgn_BC_Production_Fighter",
+        RequiredResearch = "",
+        RequiredFleetSubSystems = "",
+        DisplayPriority = 0,
+        DisplayedName = "$7000",
+        Description = "$7001"
+    },
+    {
+        Type = SubSystem,
         ThingToBuild = "Hgn_C_Module_PlatformControl",
         RequiredResearch = "",
         RequiredShipSubSystems = "",
