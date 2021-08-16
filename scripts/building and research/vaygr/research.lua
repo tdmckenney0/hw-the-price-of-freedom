@@ -17,7 +17,7 @@ research = {
     {
         Name = "CorvetteTech",
         RequiredResearch = "",
-        RequiredSubSystems = "Research",
+        RequiredSubSystems = "",
         Cost = 500,
         Time = 40,
         DisplayedName = "$7176",
@@ -31,7 +31,7 @@ research = {
     {
         Name = "FrigateTech",
         RequiredResearch = "",
-        RequiredSubSystems = "Research",
+        RequiredSubSystems = "",
         Cost = 1800,
         Time = 120,
         DisplayedName = "$7178",
@@ -45,7 +45,7 @@ research = {
     {
         Name = "ProbeSensorDisruption",
         RequiredResearch = "",
-        RequiredSubSystems = "Research",
+        RequiredSubSystems = "",
         Cost = 800,
         Time = 60,
         DisplayedName = "$7700",
@@ -58,7 +58,7 @@ research = {
     {
         Name = "ProbeProxSensor",
         RequiredResearch = "",
-        RequiredSubSystems = "Research",
+        RequiredSubSystems = "",
         Cost = 500,
         Time = 40,
         DisplayedName = "$7183",
@@ -71,7 +71,7 @@ research = {
     {
         Name = "LanceBeams",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & FighterProduction",
+        RequiredSubSystems = "FighterProduction",
         Cost = 250,
         Time = 25,
         DisplayedName = "$7704",
@@ -84,7 +84,7 @@ research = {
     {
         Name = "PlasmaBombs",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & FighterProduction",
+        RequiredSubSystems = "FighterProduction",
         Cost = 250,
         Time = 25,
         DisplayedName = "$7702",
@@ -97,7 +97,7 @@ research = {
     {
         Name = "CorvetteGraviticAttraction",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & CorvetteProduction",
+        RequiredSubSystems = "CorvetteProduction",
         Cost = 1500,
         Time = 100,
         DisplayedName = "$7706",
@@ -110,7 +110,7 @@ research = {
     {
         Name = "CorvetteLaser",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & CorvetteProduction",
+        RequiredSubSystems = "CorvetteProduction",
         Cost = 500,
         Time = 60,
         DisplayedName = "$7708",
@@ -123,7 +123,7 @@ research = {
     {
         Name = "CorvetteCommand",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & CorvetteProduction",
+        RequiredSubSystems = "CorvetteProduction",
         Cost = 500,
         Time = 60,
         DisplayedName = "$7710",
@@ -136,7 +136,7 @@ research = {
     {
         Name = "PlatformHeavyMissiles",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & PlatformProduction",
+        RequiredSubSystems = "PlatformProduction",
         Cost = 1200,
         Time = 105,
         DisplayedName = "$7712",
@@ -149,7 +149,7 @@ research = {
     {
         Name = "FrigateAssault",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & FrigateProduction",
+        RequiredSubSystems = "FrigateProduction",
         Cost = 650,
         Time = 45,
         DisplayedName = "$7714",
@@ -162,7 +162,7 @@ research = {
     {
         Name = "FrigateInfiltrationTech",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & FrigateProduction",
+        RequiredSubSystems = "FrigateProduction",
         Cost = 1000,
         Time = 60,
         DisplayedName = "$7716",
@@ -175,7 +175,7 @@ research = {
     {
         Name = "BattlecruiserIonWeapons",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & CapShipProduction",
+        RequiredSubSystems = "CapShipProduction",
         Cost = 2500,
         Time = 200,
         DisplayedName = "$7718",
@@ -188,7 +188,7 @@ research = {
     {
         Name = "DestroyerGuns",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & CapShipProduction",
+        RequiredSubSystems = "CapShipProduction",
         Cost = 2000,
         Time = 140,
         DisplayedName = "$7720",
@@ -201,7 +201,7 @@ research = {
     {
         Name = "HyperspaceGateTech",
         RequiredResearch = "",
-        RequiredSubSystems = "Research",
+        RequiredSubSystems = "",
         Cost = 750,
         Time = 50,
         DisplayedName = "$7722",
@@ -214,7 +214,7 @@ research = {
     {
         Name = "RepairAbility",
         RequiredResearch = "",
-        RequiredSubSystems = "Research",
+        RequiredSubSystems = "",
         Cost = 500,
         Time = 30,
         DisplayedName = "$7724",
@@ -230,7 +230,7 @@ research = {
     {
         Name = "ScoutEMPAbility",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & FighterProduction",
+        RequiredSubSystems = "FighterProduction",
         Cost = 1000,
         Time = 70,
         DisplayedName = "$7732",
@@ -246,7 +246,7 @@ research = {
     {
         Name = "BomberImprovedBombs",
         RequiredResearch = "PlasmaBombs",
-        RequiredSubSystems = "Research",
+        RequiredSubSystems = "",
         Cost = 1500,
         Time = 45,
         DisplayedName = "$7730",
@@ -262,7 +262,7 @@ research = {
     {
         Name = "MothershipBUILDSPEEDUpgrade1",
         RequiredResearch = "",
-        RequiredSubSystems = "Research",
+        RequiredSubSystems = "",
         Cost = 1000,
         Time = 60,
         DisplayedName = "$7815",
@@ -347,7 +347,7 @@ research = {
     {
         Name = "CarrierBUILDSPEEDUpgrade1",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & CapShipProduction",
+        RequiredSubSystems = "CapShipProduction",
         Cost = 1500,
         Time = 100,
         DisplayedName = "$7820",
@@ -364,7 +364,7 @@ research = {
     {
         Name = "ShipyardBUILDSPEEDUpgrade1",
         RequiredResearch = "",
-        RequiredSubSystems = "Research & CapShipProduction & Hyperspace",
+        RequiredSubSystems = "CapShipProduction & Hyperspace",
         Cost = 1000,
         Time = 95,
         DisplayedName = "$7825",
@@ -585,7 +585,7 @@ research = {
     {
         Name = "UtilityHealthUpgrade1",
         RequiredResearch = "",
-        RequiredSubSystems = "Research",
+        RequiredSubSystems = "",
         Cost = 1200,
         Time = 50,
         DisplayedName = "$7779",
@@ -602,7 +602,7 @@ research = {
     {
         Name = "UtilityHealthUpgrade2",
         RequiredResearch = "UtilityHealthUpgrade1",
-        RequiredSubSystems = "Research",
+        RequiredSubSystems = "",
         Cost = 2400,
         Time = 70,
         DisplayedName = "$7781",
