@@ -419,5 +419,106 @@ build = {
         DisplayPriority = 612,
         DisplayedName = "Honking big planet killing missile",
         Description = ""
+    },
+
+    -- TPOF Turrets
+    {
+        Type = SubSystem,
+        ThingToBuild = "Vgr_Flakturret",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1000,
+        DisplayedName = "Flak Turret",
+        Description = "Flak Turret"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Vgr_Flakturretleft",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1110,
+        DisplayedName = "Flak Turret",
+        Description = "Flak Turret"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Vgr_Flakturretright",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1120,
+        DisplayedName = "Flak Turret",
+        Description = "Flak Turret"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Vgr_Ionbeamturret",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 2000,
+        DisplayedName = "Ion Turret",
+        Description = "Ion Turret"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Vgr_Missilebay",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 3000,
+        DisplayedName = "Missile Bay",
+        Description = "Missile Bay"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Vgr_Missileturret",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 4000,
+        DisplayedName = "Missile Turret",
+        Description = "Missile Turret"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Vgr_Pmortarfrigate",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 5000,
+        DisplayedName = "Plasma Mortar",
+        Description = "Plasma Mortar"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Vgr_Pmortarfrigatebottom",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 5110,
+        DisplayedName = "Plasma Mortar",
+        Description = "Plasma Mortar"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Vgr_Pmortarfrigateleft",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 5120,
+        DisplayedName = "Plasma Mortar",
+        Description = "Plasma Mortar"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Vgr_Pmortarfrigateright",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 5130,
+        DisplayedName = "Plasma Mortar",
+        Description = "Plasma Mortar"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Vgr_Railgun",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 6000,
+        DisplayedName = "Railgun",
+        Description = "Railgun"
     }
 }
