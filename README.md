@@ -6,7 +6,7 @@ Written by: Tanner Mckenney
 
 ## Story
 
-15 years after the Hiigarans pushed the Vaygr out, the inner rim worlds have re-armed. With the threat of a Vaygr resurgance looming, tight strike groups have been formed to counter the Vaygr's combat efficiency.  
+5 years into the Age of S'jet, the Kiith have built new ships with experimental technology to prepare them for the journey through the gates...
 
 ## Tools
 
