@@ -54,7 +54,7 @@ research = {
     {
         Name = "DestroyerTech",
         RequiredResearch = "",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 1500,
         Time = 90,
         DisplayedName = "$7507",
@@ -67,7 +67,7 @@ research = {
     {
         Name = "BattlecruiserIonWeapons",
         RequiredResearch = "",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 1800,
         Time = 140,
         DisplayedName = "$7504",
@@ -313,7 +313,7 @@ research = {
     {
         Name = "CarrierHealthUpgrade1",
         RequiredResearch = "",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 750,
         Time = 40,
         DisplayedName = "$7531",
@@ -330,7 +330,7 @@ research = {
     {
         Name = "CarrierHealthUpgrade2",
         RequiredResearch = "CarrierHealthUpgrade1",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 1000,
         Time = 60,
         DisplayedName = "$7533",
@@ -347,7 +347,7 @@ research = {
     {
         Name = "CarrierMAXSPEEDUpgrade1",
         RequiredResearch = "",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 500,
         Time = 30,
         DisplayedName = "$7535",
@@ -364,7 +364,7 @@ research = {
     {
         Name = "CarrierMAXSPEEDUpgrade2",
         RequiredResearch = "CarrierMAXSPEEDUpgrade1",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 1000,
         Time = 40,
         DisplayedName = "$7537",
@@ -381,7 +381,7 @@ research = {
     {
         Name = "CarrierBUILDSPEEDUpgrade1",
         RequiredResearch = "",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 1500,
         Time = 60,
         DisplayedName = "$7805",
@@ -806,7 +806,7 @@ research = {
     {
         Name = "BattlecruiserHealthUpgrade1",
         RequiredResearch = "BattlecruiserIonWeapons",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 2000,
         Time = 60,
         DisplayedName = "$7595",
@@ -823,7 +823,7 @@ research = {
     {
         Name = "BattlecruiserHealthUpgrade2",
         RequiredResearch = "BattlecruiserHealthUpgrade1",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 3000,
         Time = 75,
         DisplayedName = "$7597",
@@ -840,7 +840,7 @@ research = {
     {
         Name = "BattlecruiserMAXSPEEDUpgrade1",
         RequiredResearch = "BattlecruiserIonWeapons",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 1000,
         Time = 30,
         DisplayedName = "$7599",
@@ -857,7 +857,7 @@ research = {
     {
         Name = "BattlecruiserMAXSPEEDUpgrade2",
         RequiredResearch = "BattlecruiserMAXSPEEDUpgrade1",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 1500,
         Time = 40,
         DisplayedName = "$7601",
@@ -874,7 +874,7 @@ research = {
     {
         Name = "DestroyerHealthUpgrade1",
         RequiredResearch = "DestroyerTech",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 1000,
         Time = 60,
         DisplayedName = "$7639",
@@ -891,7 +891,7 @@ research = {
     {
         Name = "DestroyerHealthUpgrade2",
         RequiredResearch = "DestroyerHealthUpgrade1",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 1500,
         Time = 75,
         DisplayedName = "$7641",
@@ -908,7 +908,7 @@ research = {
     {
         Name = "DestroyerMAXSPEEDUpgrade1",
         RequiredResearch = "DestroyerTech",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 1000,
         Time = 30,
         DisplayedName = "$7643",
@@ -925,7 +925,7 @@ research = {
     {
         Name = "DestroyerMAXSPEEDUpgrade2",
         RequiredResearch = "DestroyerMAXSPEEDUpgrade1",
-        RequiredSubSystems = "CapShipProduction",
+        RequiredSubSystems = "",
         Cost = 1500,
         Time = 40,
         DisplayedName = "$7645",

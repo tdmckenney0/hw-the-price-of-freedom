@@ -62,24 +62,6 @@ build = {
     },
     {
         Type = SubSystem,
-        ThingToBuild = "Hgn_MS_Production_CapShip",
-        RequiredResearch = "",
-        RequiredShipSubSystems = "",
-        DisplayPriority = 0,
-        DisplayedName = "$7006",
-        Description = "$7007"
-    },
-    {
-        Type = SubSystem,
-        ThingToBuild = "Hgn_SY_Production_CapShip",
-        RequiredResearch = "",
-        RequiredShipSubSystems = "",
-        DisplayPriority = 0,
-        DisplayedName = "$7006",
-        Description = "$7007"
-    },
-    {
-        Type = SubSystem,
         ThingToBuild = "Hgn_C_Module_PlatformControl",
         RequiredResearch = "",
         RequiredShipSubSystems = "",

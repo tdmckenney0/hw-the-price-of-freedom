@@ -80,24 +80,6 @@ build = {
     },
     {
         Type = SubSystem,
-        ThingToBuild = "Vgr_MS_Production_CapShip",
-        RequiredResearch = "",
-        RequiredShipSubSystems = "",
-        DisplayPriority = 0,
-        DisplayedName = "$7106",
-        Description = "$7107"
-    },
-    {
-        Type = SubSystem,
-        ThingToBuild = "Vgr_SY_Production_CapShip",
-        RequiredResearch = "",
-        RequiredShipSubSystems = "",
-        DisplayPriority = 10,
-        DisplayedName = "$7106",
-        Description = "$7107"
-    },
-    {
-        Type = SubSystem,
         ThingToBuild = "Vgr_C_Module_CloakGenerator",
         RequiredResearch = "",
         RequiredFleetSubSystems = "",
