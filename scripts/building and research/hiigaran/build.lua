@@ -28,7 +28,7 @@ build = {
         Type = SubSystem,
         ThingToBuild = "Hgn_C_Production_Corvette",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 0,
         DisplayedName = "$7002",
         Description = "$7003"
@@ -37,7 +37,7 @@ build = {
         Type = SubSystem,
         ThingToBuild = "Hgn_MS_Production_Corvette",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 0,
         DisplayedName = "$7002",
         Description = "$7003"
@@ -46,7 +46,7 @@ build = {
         Type = SubSystem,
         ThingToBuild = "Hgn_C_Production_Frigate",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 0,
         DisplayedName = "$7004",
         Description = "$7005"
@@ -55,7 +55,7 @@ build = {
         Type = SubSystem,
         ThingToBuild = "Hgn_MS_Production_Frigate",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 0,
         DisplayedName = "$7004",
         Description = "$7005"
@@ -98,45 +98,9 @@ build = {
     },
     {
         Type = SubSystem,
-        ThingToBuild = "Hgn_C_Module_Research",
-        RequiredResearch = "",
-        RequiredShipSubSystems = "",
-        DisplayPriority = 0,
-        DisplayedName = "$7010",
-        Description = "$7011"
-    },
-    {
-        Type = SubSystem,
-        ThingToBuild = "Hgn_MS_Module_Research",
-        RequiredResearch = "",
-        RequiredShipSubSystems = "",
-        DisplayPriority = 0,
-        DisplayedName = "$7010",
-        Description = "$7011"
-    },
-    {
-        Type = SubSystem,
-        ThingToBuild = "Hgn_C_Module_ResearchAdvanced",
-        RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
-        DisplayPriority = 10,
-        DisplayedName = "$7012",
-        Description = "$7013"
-    },
-    {
-        Type = SubSystem,
-        ThingToBuild = "Hgn_MS_Module_ResearchAdvanced",
-        RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
-        DisplayPriority = 10,
-        DisplayedName = "$7012",
-        Description = "$7013"
-    },
-    {
-        Type = SubSystem,
         ThingToBuild = "Hgn_C_Module_Hyperspace",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 30,
         DisplayedName = "$7014",
         Description = "$7015"
@@ -145,7 +109,7 @@ build = {
         Type = SubSystem,
         ThingToBuild = "Hgn_MS_Module_Hyperspace",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 30,
         DisplayedName = "$7014",
         Description = "$7015"
@@ -154,7 +118,7 @@ build = {
         Type = SubSystem,
         ThingToBuild = "Hgn_C_Module_HyperspaceInhibitor",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 40,
         DisplayedName = "$7016",
         Description = "$7017"
@@ -163,7 +127,7 @@ build = {
         Type = SubSystem,
         ThingToBuild = "Hgn_MS_Module_HyperspaceInhibitor",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 40,
         DisplayedName = "$7016",
         Description = "$7017"
@@ -172,7 +136,7 @@ build = {
         Type = SubSystem,
         ThingToBuild = "Hgn_C_Module_CloakGenerator",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 50,
         DisplayedName = "$7018",
         Description = "$7019"
@@ -181,7 +145,7 @@ build = {
         Type = SubSystem,
         ThingToBuild = "Hgn_MS_Module_CloakGenerator",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "Research",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 50,
         DisplayedName = "$7018",
         Description = "$7019"
@@ -190,7 +154,7 @@ build = {
         Type = SubSystem,
         ThingToBuild = "Hgn_C_Module_FireControl",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "AdvancedResearch",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 60,
         DisplayedName = "$7020",
         Description = "$7021"
@@ -199,7 +163,53 @@ build = {
         Type = SubSystem,
         ThingToBuild = "Hgn_MS_Module_FireControl",
         RequiredResearch = "",
-        RequiredFleetSubSystems = "AdvancedResearch",
+        RequiredFleetSubSystems = "",
+        DisplayPriority = 60,
+        DisplayedName = "$7020",
+        Description = "$7021"
+    },
+	{
+        Type = SubSystem,
+        ThingToBuild = "Hgn_C_Module_Build",
+        RequiredResearch = "",
+        RequiredFleetSubSystems = "",
+        DisplayPriority = 60,
+        DisplayedName = "$7020",
+        Description = "$7021"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Hgn_MS_Module_Build",
+        RequiredResearch = "",
+        RequiredFleetSubSystems = "",
+        DisplayPriority = 60,
+        DisplayedName = "$7020",
+        Description = "$7021"
+    },
+	{
+        Type = SubSystem,
+        ThingToBuild = "Hgn_C_Module_FusionCell",
+        RequiredResearch = "",
+        RequiredFleetSubSystems = "",
+        DisplayPriority = 60,
+        DisplayedName = "$7020",
+        Description = "$7021"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "Hgn_MS_Module_FusionCell",
+        RequiredResearch = "",
+        RequiredFleetSubSystems = "",
+        DisplayPriority = 60,
+        DisplayedName = "$7020",
+        Description = "$7021"
+    },
+	-- The "Repair" modules doesn't have an larger module just yet.
+	{
+        Type = SubSystem,
+        ThingToBuild = "Hgn_C_Module_Repair",
+        RequiredResearch = "",
+        RequiredFleetSubSystems = "",
         DisplayPriority = 60,
         DisplayedName = "$7020",
         Description = "$7021"
