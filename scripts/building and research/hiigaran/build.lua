@@ -168,52 +168,6 @@ build = {
         DisplayedName = "$7020",
         Description = "$7021"
     },
-	{
-        Type = SubSystem,
-        ThingToBuild = "Hgn_C_Module_Build",
-        RequiredResearch = "",
-        RequiredFleetSubSystems = "",
-        DisplayPriority = 60,
-        DisplayedName = "$7020",
-        Description = "$7021"
-    },
-    {
-        Type = SubSystem,
-        ThingToBuild = "Hgn_MS_Module_Build",
-        RequiredResearch = "",
-        RequiredFleetSubSystems = "",
-        DisplayPriority = 60,
-        DisplayedName = "$7020",
-        Description = "$7021"
-    },
-	{
-        Type = SubSystem,
-        ThingToBuild = "Hgn_C_Module_FusionCell",
-        RequiredResearch = "",
-        RequiredFleetSubSystems = "",
-        DisplayPriority = 60,
-        DisplayedName = "$7020",
-        Description = "$7021"
-    },
-    {
-        Type = SubSystem,
-        ThingToBuild = "Hgn_MS_Module_FusionCell",
-        RequiredResearch = "",
-        RequiredFleetSubSystems = "",
-        DisplayPriority = 60,
-        DisplayedName = "$7020",
-        Description = "$7021"
-    },
-	-- The "Repair" modules doesn't have an larger module just yet.
-	{
-        Type = SubSystem,
-        ThingToBuild = "Hgn_C_Module_Repair",
-        RequiredResearch = "",
-        RequiredFleetSubSystems = "",
-        DisplayPriority = 60,
-        DisplayedName = "$7020",
-        Description = "$7021"
-    },
     {
         Type = SubSystem,
         ThingToBuild = "Hgn_C_Sensors_DetectHyperspace",

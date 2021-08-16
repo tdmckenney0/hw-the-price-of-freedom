@@ -2164,7 +2164,6 @@ vgr_weaponplatform_Plasma = Vgr_WeaponPlatform_gun
 --Hiigaran
 hgn_battleshipminedropper = Icon_Subsystem_TorpedoLauncher
 hgn_booster = Icon_Subsystem_Engine
-hgn_c_module_build = Icon_Subsystem_ResearchAdvanced
 hgn_coilcannonx3 = Icon_Subsystem_IonTurret
 hgn_gatlinggun = Icon_Subsystem_Engine
 hgn_gatlinggunleft = Icon_Subsystem_Engine
@@ -2180,7 +2179,6 @@ hgn_missileturretright = Icon_Subsystem_TorpedoLauncher
 hgn_mount = Icon_Subsystem_PlatformControl
 hgn_mount_large = Icon_Subsystem_PlatformControl
 hgn_mountedflak = Icon_Subsystem_Engine
-hgn_ms_module_build = Icon_Subsystem_ResearchAdvanced
 hgn_plasmabatteryx6 = Icon_Subsystem_IonTurret
 hgn_railgun = Icon_Subsystem_IonTurret
 hgn_smallionturret = Icon_Subsystem_IonTurret
