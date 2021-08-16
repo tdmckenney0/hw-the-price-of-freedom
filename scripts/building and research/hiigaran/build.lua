@@ -492,5 +492,133 @@ build = {
         DisplayPriority = 117,
         DisplayedName = "$7058",
         Description = "$7059"
+    },
+
+    -- TPOF Turrets
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_coilcannonx3",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1000,
+        DisplayedName = "Coil Cannon",
+        Description = "Coil Cannon"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_gatlinggun",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1100,
+        DisplayedName = "Gatling Gun",
+        Description = "Coil Cannon"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_gatlinggunleft",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1110,
+        DisplayedName = "Gatling Gun",
+        Description = "Gatling Gun"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_gatlinggunright",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1120,
+        DisplayedName = "Gatling Gun",
+        Description = "Gatling Gun"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_gatlinggunsmall",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1130,
+        DisplayedName = "Gatling Gun",
+        Description = "Gatling Gun"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_ioncannon",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1200,
+        DisplayedName = "Ion Cannon",
+        Description = "Ion Cannon"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_lasersmall",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1300,
+        DisplayedName = "Small Laser",
+        Description = "Small Laser"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_missileturret",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1400,
+        DisplayedName = "Missile Turret",
+        Description = "Missile Turret"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_missileturretleft",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1410,
+        DisplayedName = "Missile Turret",
+        Description = "Missile Turret"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_missileturretright",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1420,
+        DisplayedName = "Missile Turret",
+        Description = "Missile Turret"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_mountedflak",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1500,
+        DisplayedName = "Flak Cannon",
+        Description = "Flak Cannon"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_plasmabatteryx6",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1600,
+        DisplayedName = "Plasma Battery",
+        Description = "Plasma Battery"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_railgun",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1700,
+        DisplayedName = "Railgun",
+        Description = "Railgun"
+    },
+    {
+        Type = SubSystem,
+        ThingToBuild = "hgn_smallionturret",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "",
+        DisplayPriority = 1800,
+        DisplayedName = "Small Ion Turret",
+        Description = "Small Ion Turret"
     }
 }
