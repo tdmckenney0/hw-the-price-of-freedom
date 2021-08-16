@@ -15,95 +15,6 @@ Family = 1
 Ship = 2
 research = {
     {
-        Name = "InstaAdvancedFrigateTech",
-        RequiredResearch = "",
-        RequiredSubSystems = "",
-        Cost = 0,
-        Time = 0,
-        DisplayedName = "Instant Tech!!!!!!!!!!!!!!!!!!!!!!!!!!",
-        DisplayPriority = 1,
-        Description = "",
-        TargetName = "Hgn_Mothership"
-    },
-    {
-        Name = "GraviticAttractionMines",
-        RequiredResearch = "",
-        RequiredSubSystems = "CorvetteProduction",
-        Cost = 750,
-        Time = 40,
-        DisplayedName = "$7500",
-        DisplayPriority = 2,
-        Description = "$7501",
-        TargetName = "Hgn_MinelayerCorvette",
-        Icon = Icon_Tech,
-        ShortDisplayedName = "$7200"
-    },
-    {
-        Name = "PlatformIonWeapons",
-        Required = "",
-        RequiredSubSystems = "PlatformProduction",
-        Cost = 600,
-        Time = 100,
-        DisplayedName = "$7502",
-        DisplayPriority = 24,
-        Description = "$7503",
-        TargetName = "Hgn_IonTurret",
-        Icon = Icon_Tech,
-        ShortDisplayedName = "$7201"
-    },
-    {
-        Name = "DestroyerTech",
-        RequiredResearch = "",
-        RequiredSubSystems = "",
-        Cost = 1500,
-        Time = 90,
-        DisplayedName = "$7507",
-        DisplayPriority = 3,
-        Description = "$7508",
-        TargetName = "Hgn_Destroyer",
-        Icon = Icon_Tech,
-        ShortDisplayedName = "$7203"
-    },
-    {
-        Name = "BattlecruiserIonWeapons",
-        RequiredResearch = "",
-        RequiredSubSystems = "",
-        Cost = 1800,
-        Time = 140,
-        DisplayedName = "$7504",
-        DisplayPriority = 1,
-        Description = "$7505",
-        TargetName = "Hgn_BattleCruiser",
-        Icon = Icon_Tech,
-        ShortDisplayedName = "$7202"
-    },
-    {
-        Name = "ECMProbe",
-        RequiredResearch = "",
-        RequiredSubSystems = "",
-        Cost = 500,
-        Time = 45,
-        DisplayedName = "$7509",
-        DisplayPriority = 4,
-        Description = "$7510",
-        TargetName = "Hgn_ECMProbe",
-        Icon = Icon_Tech,
-        ShortDisplayedName = "$7204"
-    },
-    {
-        Name = "SensDisProbe",
-        RequiredResearch = "",
-        RequiredSubSystems = "",
-        Cost = 500,
-        Time = 35,
-        DisplayedName = "$7650",
-        DisplayPriority = 5,
-        Description = "$7651",
-        TargetName = "Hgn_ProximitySensor",
-        Icon = Icon_Tech,
-        ShortDisplayedName = "$7214"
-    },
-    {
         Name = "DamageMoverTech",
         RequiredResearch = "",
         RequiredSubSystems = "",
@@ -669,7 +580,7 @@ research = {
     },
     {
         Name = "IonCannonFrigateHealthUpgrade1",
-        RequiredResearch = "InstaAdvancedFrigateTech",
+        RequiredResearch = "",
         RequiredSubSystems = "FrigateProduction",
         Cost = 800,
         Time = 60,
@@ -686,7 +597,7 @@ research = {
     },
     {
         Name = "IonCannonFrigateHealthUpgrade2",
-        RequiredResearch = "IonCannonFrigateHealthUpgrade1 & InstaAdvancedFrigateTech",
+        RequiredResearch = "IonCannonFrigateHealthUpgrade1",
         RequiredSubSystems = "FrigateProduction",
         Cost = 1400,
         Time = 75,
@@ -703,7 +614,7 @@ research = {
     },
     {
         Name = "IonCannonFrigateMAXSPEEDUpgrade1",
-        RequiredResearch = "InstaAdvancedFrigateTech",
+        RequiredResearch = "",
         RequiredSubSystems = "FrigateProduction",
         Cost = 500,
         Time = 50,
@@ -720,7 +631,7 @@ research = {
     },
     {
         Name = "IonCannonFrigateMAXSPEEDUpgrade2",
-        RequiredResearch = "IonCannonFrigateMAXSPEEDUpgrade1 & InstaAdvancedFrigateTech",
+        RequiredResearch = "IonCannonFrigateMAXSPEEDUpgrade1",
         RequiredSubSystems = "FrigateProduction",
         Cost = 750,
         Time = 70,
@@ -737,7 +648,7 @@ research = {
     },
     {
         Name = "AssaultFrigateHealthUpgrade1",
-        RequiredResearch = "InstaAdvancedFrigateTech",
+        RequiredResearch = "",
         RequiredSubSystems = "FrigateProduction",
         Cost = 800,
         Time = 60,
@@ -754,7 +665,7 @@ research = {
     },
     {
         Name = "AssaultFrigateHealthUpgrade2",
-        RequiredResearch = "AssaultFrigateHealthUpgrade1 & InstaAdvancedFrigateTech",
+        RequiredResearch = "AssaultFrigateHealthUpgrade1",
         RequiredSubSystems = "FrigateProduction",
         Cost = 1400,
         Time = 75,
@@ -771,7 +682,7 @@ research = {
     },
     {
         Name = "AssaultFrigateMAXSPEEDUpgrade1",
-        RequiredResearch = "InstaAdvancedFrigateTech",
+        RequiredResearch = "",
         RequiredSubSystems = "FrigateProduction",
         Cost = 500,
         Time = 50,
@@ -788,7 +699,7 @@ research = {
     },
     {
         Name = "AssaultFrigateMAXSPEEDUpgrade2",
-        RequiredResearch = "AssaultFrigateMAXSPEEDUpgrade1 & InstaAdvancedFrigateTech",
+        RequiredResearch = "AssaultFrigateMAXSPEEDUpgrade1",
         RequiredSubSystems = "FrigateProduction",
         Cost = 750,
         Time = 70,
@@ -805,7 +716,7 @@ research = {
     },
     {
         Name = "BattlecruiserHealthUpgrade1",
-        RequiredResearch = "BattlecruiserIonWeapons",
+        RequiredResearch = "",
         RequiredSubSystems = "",
         Cost = 2000,
         Time = 60,
@@ -839,7 +750,7 @@ research = {
     },
     {
         Name = "BattlecruiserMAXSPEEDUpgrade1",
-        RequiredResearch = "BattlecruiserIonWeapons",
+        RequiredResearch = "",
         RequiredSubSystems = "",
         Cost = 1000,
         Time = 30,
@@ -873,7 +784,7 @@ research = {
     },
     {
         Name = "DestroyerHealthUpgrade1",
-        RequiredResearch = "DestroyerTech",
+        RequiredResearch = "",
         RequiredSubSystems = "",
         Cost = 1000,
         Time = 60,
@@ -907,7 +818,7 @@ research = {
     },
     {
         Name = "DestroyerMAXSPEEDUpgrade1",
-        RequiredResearch = "DestroyerTech",
+        RequiredResearch = "",
         RequiredSubSystems = "",
         Cost = 1000,
         Time = 30,
@@ -975,7 +886,7 @@ research = {
     },
     {
         Name = "IonTurretHealthUpgrade1",
-        RequiredResearch = "PlatformIonWeapons",
+        RequiredResearch = "",
         RequiredSubSystems = "PlatformProduction",
         Cost = 500,
         Time = 30,
@@ -992,7 +903,7 @@ research = {
     },
     {
         Name = "IonTurretHealthUpgrade2",
-        RequiredResearch = "IonTurretHealthUpgrade1 & PlatformIonWeapons",
+        RequiredResearch = "IonTurretHealthUpgrade1",
         RequiredSubSystems = "PlatformProduction",
         Cost = 800,
         Time = 40,

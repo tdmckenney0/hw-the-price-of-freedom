@@ -27,7 +27,7 @@ build = {
     {
         Type = SubSystem,
         ThingToBuild = "Vgr_C_Production_Corvette",
-        RequiredResearch = "CorvetteTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 0,
         DisplayedName = "$7102",
@@ -36,7 +36,7 @@ build = {
     {
         Type = SubSystem,
         ThingToBuild = "Vgr_MS_Production_Corvette",
-        RequiredResearch = "CorvetteTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 0,
         DisplayedName = "$7102",
@@ -45,7 +45,7 @@ build = {
     {
         Type = SubSystem,
         ThingToBuild = "Vgr_C_Production_Frigate",
-        RequiredResearch = "FrigateTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 0,
         DisplayedName = "$7104",
@@ -54,7 +54,7 @@ build = {
     {
         Type = SubSystem,
         ThingToBuild = "Vgr_MS_Production_Frigate",
-        RequiredResearch = "FrigateTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 0,
         DisplayedName = "$7104",
@@ -144,7 +144,7 @@ build = {
     {
         Type = SubSystem,
         ThingToBuild = "Vgr_C_Module_Hyperspace",
-        RequiredResearch = "HyperspaceGateTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 20,
         DisplayedName = "$7114",
@@ -153,7 +153,7 @@ build = {
     {
         Type = SubSystem,
         ThingToBuild = "Vgr_MS_Module_Hyperspace",
-        RequiredResearch = "HyperspaceGateTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 20,
         DisplayedName = "$7114",
@@ -216,7 +216,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_Bomber",
-        RequiredResearch = "PlasmaBombs",
+        RequiredResearch = "",
         RequiredShipSubSystems = "FighterProduction",
         DisplayPriority = 22,
         DisplayedName = "$7134",
@@ -225,7 +225,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_LanceFighter",
-        RequiredResearch = "LanceBeams",
+        RequiredResearch = "",
         RequiredShipSubSystems = "FighterProduction",
         DisplayPriority = 23,
         DisplayedName = "$7136",
@@ -243,7 +243,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_LaserCorvette",
-        RequiredResearch = "CorvetteLaser",
+        RequiredResearch = "",
         RequiredShipSubSystems = "CorvetteProduction",
         DisplayPriority = 105,
         DisplayedName = "$7140",
@@ -252,7 +252,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_MinelayerCorvette",
-        RequiredResearch = "CorvetteGraviticAttraction",
+        RequiredResearch = "",
         RequiredShipSubSystems = "CorvetteProduction",
         DisplayPriority = 115,
         DisplayedName = "$7142",
@@ -261,7 +261,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_CommandCorvette",
-        RequiredResearch = "CorvetteCommand",
+        RequiredResearch = "",
         RequiredShipSubSystems = "CorvetteProduction",
         DisplayPriority = 110,
         DisplayedName = "$7144",
@@ -270,7 +270,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_AssaultFrigate",
-        RequiredResearch = "FrigateAssault",
+        RequiredResearch = "",
         RequiredShipSubSystems = "FrigateProduction",
         DisplayPriority = 220,
         DisplayedName = "$7146",
@@ -288,7 +288,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_InfiltratorFrigate",
-        RequiredResearch = "FrigateInfiltrationTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "FrigateProduction",
         DisplayPriority = 230,
         DisplayedName = "$7150",
@@ -297,7 +297,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_Destroyer",
-        RequiredResearch = "DestroyerGuns",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 300,
         DisplayedName = "$7152",
@@ -324,7 +324,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_BattleCruiser",
-        RequiredResearch = "BattlecruiserIonWeapons",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 330,
         DisplayedName = "$7158",
@@ -342,7 +342,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_WeaponPlatform_missile",
-        RequiredResearch = "PlatformHeavyMissiles",
+        RequiredResearch = "",
         RequiredShipSubSystems = "PlatformProduction",
         DisplayPriority = 410,
         DisplayedName = "$7162",
@@ -369,7 +369,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_HyperSpace_Platform",
-        RequiredResearch = "HyperspaceGateTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "PlatformProduction",
         DisplayPriority = 520,
         DisplayedName = "$7174",
@@ -387,7 +387,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_Probe_Prox",
-        RequiredResearch = "ProbeProxSensor",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 550,
         DisplayedName = "$7170",
@@ -396,7 +396,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Vgr_Probe_ECM",
-        RequiredResearch = "ProbeSensorDisruption",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 560,
         DisplayedName = "$7172",

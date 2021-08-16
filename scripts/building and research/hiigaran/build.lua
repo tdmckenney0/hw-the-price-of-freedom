@@ -279,7 +279,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Hgn_MinelayerCorvette",
-        RequiredResearch = "GraviticAttractionMines",
+        RequiredResearch = "",
         RequiredShipSubSystems = "CorvetteProduction",
         DisplayPriority = 52,
         DisplayedName = "$7042",
@@ -306,7 +306,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Hgn_AssaultFrigate",
-        RequiredResearch = "InstaAdvancedFrigateTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "FrigateProduction",
         DisplayPriority = 65,
         DisplayedName = "$7048",
@@ -315,7 +315,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Hgn_IonCannonFrigate",
-        RequiredResearch = "InstaAdvancedFrigateTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "FrigateProduction",
         DisplayPriority = 70,
         DisplayedName = "$7050",
@@ -324,7 +324,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Hgn_MarineFrigate",
-        RequiredResearch = "InstaAdvancedFrigateTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "FrigateProduction",
         DisplayPriority = 75,
         DisplayedName = "$7052",
@@ -342,7 +342,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Hgn_Destroyer",
-        RequiredResearch = "DestroyerTech",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 116,
         DisplayedName = "$7056",
@@ -360,7 +360,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Hgn_Battlecruiser",
-        RequiredResearch = "BattlecruiserIonWeapons",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 118,
         DisplayedName = "$7060",
@@ -378,7 +378,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Hgn_IonTurret",
-        RequiredResearch = "PlatformIonWeapons",
+        RequiredResearch = "",
         RequiredShipSubSystems = "PlatformProduction",
         DisplayPriority = 142,
         DisplayedName = "$7064",
@@ -414,7 +414,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Hgn_ProximitySensor",
-        RequiredResearch = "SensDisProbe",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 150,
         DisplayedName = "$7072",
@@ -423,7 +423,7 @@ build = {
     {
         Type = Ship,
         ThingToBuild = "Hgn_ECMProbe",
-        RequiredResearch = "ECMProbe",
+        RequiredResearch = "",
         RequiredShipSubSystems = "",
         DisplayPriority = 160,
         DisplayedName = "$7074",
