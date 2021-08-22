@@ -32,5 +32,5 @@ LoadHODFile(NewSubSystemType,1)
 NewSubSystemType.BuildFamily = "SubSystem_Hgn"
 NewSubSystemType.AttackFamily = "Unattackable"
 NewSubSystemType.DockFamily = "CantDock"
-NewSubSystemType.DisplayFamily = "SubSystemSensors"
+NewSubSystemType.DisplayFamily = "SubSystemModule"
 NewSubSystemType.ArmourFamily = "MediumArmour"

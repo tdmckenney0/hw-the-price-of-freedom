@@ -32,6 +32,6 @@ LoadHODFile(NewSubSystemType,1)
 NewSubSystemType.BuildFamily = "SubSystem_Hgn"
 NewSubSystemType.AttackFamily = "Subsystem"
 NewSubSystemType.DockFamily = "CantDock"
-NewSubSystemType.DisplayFamily = "SubSystemSensors"
+NewSubSystemType.DisplayFamily = "SubSystemModule"
 NewSubSystemType.ArmourFamily = "MediumArmour"
 StartSubSystemWeaponConfig(NewSubSystemType,"hgn_gatlinggunsmall","Weapon_Bottom","")

@@ -32,7 +32,7 @@ LoadHODFile(NewSubSystemType,1)
 NewSubSystemType.BuildFamily = "SubSystem_Vgr"
 NewSubSystemType.AttackFamily = "Subsystem"
 NewSubSystemType.DockFamily = "CantDock"
-NewSubSystemType.DisplayFamily = "SubSystemSensors"
+NewSubSystemType.DisplayFamily = "SubSystemModule"
 NewSubSystemType.ArmourFamily = "MediumArmour"
 StartSubSystemWeaponConfig(NewSubSystemType, "Vgr_Flakcannon", "Weapon_Gun_R", "Weapon_Gun_R")
 StartSubSystemWeaponConfig(NewSubSystemType, "Vgr_Flakcannon", "Weapon_Gun_L", "Weapon_Gun_L")
