@@ -114,7 +114,7 @@ AdvRigidBody = {SpaceFriction = 0.2}
 ResearchData = {ResearchShipExponent = 0.5}
 
 BuildData = {
-    retireRefundRatio = 0.8,
+    retireRefundRatio = 0.95,
     buildCancelRefundRatio = 1,
     buildMaxCircleSize = 0.1,
     buildSlowDown = 0.8
