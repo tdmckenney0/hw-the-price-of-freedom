@@ -174,8 +174,8 @@ addShield(NewShipType, "EMP", 10000, 20)
 
 StartShipHardPointConfig(NewShipType,"Engine","Hardpoint_Engine","System","Innate","Damageable","Vgr_BattleCruiserEngine","","","","","","","","");
 StartShipHardPointConfig(NewShipType,"Heavy Fusion Missile Launcher","Weapon_MissileBattery","Weapon","Innate","Damageable","Vgr_HeavyFusionMissileLauncherBC","","","","","","","","");
-StartShipHardPointConfig(NewShipType,"Generic 1","HardpointGeneric1","System","Generic","Destroyable","","Vgr_C_Module_Hyperspace","Vgr_C_Module_CloakGenerator","Vgr_C_Module_HyperspaceInhibitor","Vgr_C_Module_FireControl","Vgr_BC_Production_Fighter","Vgr_ionbeamturret","vgr_flakturretleft","vgr_missilebay","vgr_plasmabatteryx4", "vgr_railgun");
-StartShipHardPointConfig(NewShipType,"Generic 2","HardpointGeneric2","System","Generic","Destroyable","","Vgr_C_Module_Hyperspace","Vgr_C_Module_CloakGenerator","Vgr_C_Module_HyperspaceInhibitor","Vgr_C_Module_FireControl","Vgr_BC_Production_Fighter","Vgr_ionbeamturret","vgr_flakturretright","vgr_missilebay","vgr_plasmabatteryx4", "vgr_railgun");
+StartShipHardPointConfig(NewShipType,"Generic 1","HardpointGeneric1","System","Generic","Destroyable","","Vgr_C_Module_CloakGenerator","Vgr_C_Module_HyperspaceInhibitor","Vgr_C_Module_FireControl","Vgr_BC_Production_Fighter","Vgr_ionbeamturret","vgr_flakturretleft","vgr_missilebay","vgr_plasmabatteryx4", "vgr_railgun");
+StartShipHardPointConfig(NewShipType,"Generic 2","HardpointGeneric2","System","Generic","Destroyable","","Vgr_C_Module_CloakGenerator","Vgr_C_Module_HyperspaceInhibitor","Vgr_C_Module_FireControl","Vgr_BC_Production_Fighter","Vgr_ionbeamturret","vgr_flakturretright","vgr_missilebay","vgr_plasmabatteryx4", "vgr_railgun");
 
 SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg03", 1, 0.75, 0, 0, 0, 50, 0, 0, 0, 200, 0, 0, 0, 50, 0, 0, 0, 50)
 SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Lrg02", 1, 0.05, 30, -20, 200, 25, 300, 150, 85, 50, 0, 0, 0, 85, 0, 0, 0, 50)

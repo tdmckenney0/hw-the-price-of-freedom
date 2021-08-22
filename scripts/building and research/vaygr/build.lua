@@ -143,24 +143,6 @@ build = {
     },
     {
         Type = SubSystem,
-        ThingToBuild = "Vgr_C_Module_Hyperspace",
-        RequiredResearch = "",
-        RequiredShipSubSystems = "",
-        DisplayPriority = 20,
-        DisplayedName = "$7114",
-        Description = "$7115"
-    },
-    {
-        Type = SubSystem,
-        ThingToBuild = "Vgr_MS_Module_Hyperspace",
-        RequiredResearch = "",
-        RequiredShipSubSystems = "",
-        DisplayPriority = 20,
-        DisplayedName = "$7114",
-        Description = "$7115"
-    },
-    {
-        Type = SubSystem,
         ThingToBuild = "Vgr_C_Sensors_AdvancedArray",
         RequiredResearch = "",
         RequiredShipSubSystems = "",
