@@ -112,7 +112,7 @@ NewShipType.selectionLimit = 150000
 NewShipType.preciseATILimit = 0
 NewShipType.selectionPriority = 75
 NewShipType.militaryUnit = 0
-addAbility(NewShipType,"MoveCommand",1,1);
+addAbility(NewShipType,"MoveCommand",1,0);
 NewShipType.dontDockWithOtherRaceShips = 0
 NewShipType.ignoreRaceWhenDocking = 0
 addAbility(NewShipType, "CanLaunch")
