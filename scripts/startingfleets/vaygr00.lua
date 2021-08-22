@@ -2,7 +2,7 @@ PersistantData = {
 	StrikeGroups = {},
 	Squadrons = {
 		{
-			type = "vgr_leviathan",
+			type = "vgr_battlecruiserelite",
 			subsystems = {},
 			shiphold = {},
 			name = "",
