@@ -129,7 +129,7 @@ NewShipType.launchFormation = "delta"
 addAbility(NewShipType, "GuardCommand", 1, 5000, 500)
 addAbility(NewShipType,"ParadeCommand",1);
 addAbility(NewShipType,"CanAttack",1,1,0,0,0.35,1,"Munition, Fighter, Corvette, Capturer, Frigate, Utility, SmallCapitalShip, BigCapitalShip","justshootVgrPlatform");
-addAbility(NewShipType,"HyperspaceViaGateCommand",1,3,1,0.3);
+addAbility(NewShipType,"HyperspaceViaGateCommand",1,3,0,0.8);
 addAbility(NewShipType,"MinelayerAbility",1,3.5); -- Allows ships to shoot at Missiles and Mines.
 LoadModel(NewShipType,1);
 StartShipWeaponConfig(NewShipType,"vgr_flakturret","Weapon_Gun_R","Weapon_Gun_R");
