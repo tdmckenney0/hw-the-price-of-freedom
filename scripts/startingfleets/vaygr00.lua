@@ -23,7 +23,7 @@ PersistantData = {
 			shiphold = {},
 			name = "",
 			size = 1,
-			number = 3,
+			number = 5,
 		},
 		{
 			type = "vgr_resourcecontroller",
