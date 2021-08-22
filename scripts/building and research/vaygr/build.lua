@@ -332,6 +332,15 @@ build = {
     },
     {
         Type = Ship,
+        ThingToBuild = "Vgr_WeaponPlatform_plasma",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "PlatformProduction",
+        DisplayPriority = 420,
+        DisplayedName = "Plasma Cannon Platform",
+        Description = "$7163"
+    },
+    {
+        Type = Ship,
         ThingToBuild = "Vgr_ResourceCollector",
         RequiredResearch = "",
         RequiredShipSubSystems = "",

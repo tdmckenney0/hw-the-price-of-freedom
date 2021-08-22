@@ -377,10 +377,19 @@ build = {
     },
     {
         Type = Ship,
-        ThingToBuild = "Hgn_IonTurret",
+        ThingToBuild = "Hgn_PulsarPlatform",
         RequiredResearch = "",
         RequiredShipSubSystems = "PlatformProduction",
         DisplayPriority = 142,
+        DisplayedName = "Pulsar Platform",
+        Description = "$7065"
+    },
+    {
+        Type = Ship,
+        ThingToBuild = "Hgn_IonTurret",
+        RequiredResearch = "",
+        RequiredShipSubSystems = "PlatformProduction",
+        DisplayPriority = 143,
         DisplayedName = "$7064",
         Description = "$7065"
     },
