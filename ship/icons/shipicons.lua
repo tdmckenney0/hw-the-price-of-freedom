@@ -2165,7 +2165,6 @@ hgn_pulsarplatform = Hgn_IonTurret
 vgr_weaponplatform_Plasma = Vgr_WeaponPlatform_gun
 --Hiigaran
 hgn_battleshipminedropper = Icon_Subsystem_TorpedoLauncher
-hgn_booster = Icon_Subsystem_Engine
 hgn_coilcannonx3 = Icon_Subsystem_IonTurret
 hgn_gatlinggun = Icon_Subsystem_Engine
 hgn_gatlinggunleft = Icon_Subsystem_Engine
