@@ -91,7 +91,7 @@ NewMainMenu =
 			Text = 
 			{
 				textStyle = "FEHeading3",
-				text = "The Price of Freedom v4.0",
+				text = "Homeworld: The Price of Freedom",
 				offset = 
 				{
 					8,
